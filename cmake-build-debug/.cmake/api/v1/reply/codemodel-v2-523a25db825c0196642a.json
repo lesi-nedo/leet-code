@@ -17,7 +17,9 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3,
+						4
 					]
 				}
 			],
@@ -34,7 +36,9 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3,
+						4
 					]
 				}
 			],
@@ -45,6 +49,20 @@
 					"id" : "candy::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-candy-Debug-9bcc75a5ad157a9d66c0.json",
 					"name" : "candy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "count_say::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-count_say-Debug-897839263d22745b0753.json",
+					"name" : "count_say",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "count_subarr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-count_subarr-Debug-951d3313ce4b217c5187.json",
+					"name" : "count_subarr",
 					"projectIndex" : 0
 				},
 				{
@@ -67,8 +85,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/lesi-nedo/Desktop/leet_code_sol_cpp/cmake-build-debug",
-		"source" : "/home/lesi-nedo/Desktop/leet_code_sol_cpp"
+		"build" : "/home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug",
+		"source" : "/home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp"
 	},
 	"version" : 
 	{
