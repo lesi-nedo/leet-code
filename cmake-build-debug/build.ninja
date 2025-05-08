@@ -61,16 +61,16 @@ build CMakeFiles/merge_arr.dir/top_interview_150/merge_arr.cpp.o: CXX_COMPILER__
 
 
 #############################################
-# Link the executable merge_arr
+# Link the executable bin/merge_arr
 
-build merge_arr: CXX_EXECUTABLE_LINKER__merge_arr_Debug CMakeFiles/merge_arr.dir/top_interview_150/merge_arr.cpp.o
+build bin/merge_arr: CXX_EXECUTABLE_LINKER__merge_arr_Debug CMakeFiles/merge_arr.dir/top_interview_150/merge_arr.cpp.o
   DEP_FILE = CMakeFiles/merge_arr.dir/link.d
   FLAGS = -g
   LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/merge_arr.dir/link.d
   OBJECT_DIR = CMakeFiles/merge_arr.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = merge_arr
+  TARGET_FILE = bin/merge_arr
   TARGET_PDB = merge_arr.dbg
 
 # =============================================================================
@@ -94,16 +94,16 @@ build CMakeFiles/rem_el.dir/top_interview_150/rem_el.cpp.o: CXX_COMPILER__rem_el
 
 
 #############################################
-# Link the executable rem_el
+# Link the executable bin/rem_el
 
-build rem_el: CXX_EXECUTABLE_LINKER__rem_el_Debug CMakeFiles/rem_el.dir/top_interview_150/rem_el.cpp.o
+build bin/rem_el: CXX_EXECUTABLE_LINKER__rem_el_Debug CMakeFiles/rem_el.dir/top_interview_150/rem_el.cpp.o
   DEP_FILE = CMakeFiles/rem_el.dir/link.d
   FLAGS = -g
   LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/rem_el.dir/link.d
   OBJECT_DIR = CMakeFiles/rem_el.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = rem_el
+  TARGET_FILE = bin/rem_el
   TARGET_PDB = rem_el.dbg
 
 # =============================================================================
@@ -127,16 +127,16 @@ build CMakeFiles/candy.dir/top_interview_150/candy.cpp.o: CXX_COMPILER__candy_un
 
 
 #############################################
-# Link the executable candy
+# Link the executable bin/candy
 
-build candy: CXX_EXECUTABLE_LINKER__candy_Debug CMakeFiles/candy.dir/top_interview_150/candy.cpp.o
+build bin/candy: CXX_EXECUTABLE_LINKER__candy_Debug CMakeFiles/candy.dir/top_interview_150/candy.cpp.o
   DEP_FILE = CMakeFiles/candy.dir/link.d
   FLAGS = -g
   LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/candy.dir/link.d
   OBJECT_DIR = CMakeFiles/candy.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = candy
+  TARGET_FILE = bin/candy
   TARGET_PDB = candy.dbg
 
 # =============================================================================
@@ -160,16 +160,16 @@ build CMakeFiles/count_say.dir/top_interview_150/count_say.cpp.o: CXX_COMPILER__
 
 
 #############################################
-# Link the executable count_say
+# Link the executable bin/count_say
 
-build count_say: CXX_EXECUTABLE_LINKER__count_say_Debug CMakeFiles/count_say.dir/top_interview_150/count_say.cpp.o
+build bin/count_say: CXX_EXECUTABLE_LINKER__count_say_Debug CMakeFiles/count_say.dir/top_interview_150/count_say.cpp.o
   DEP_FILE = CMakeFiles/count_say.dir/link.d
   FLAGS = -g
   LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/count_say.dir/link.d
   OBJECT_DIR = CMakeFiles/count_say.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = count_say
+  TARGET_FILE = bin/count_say
   TARGET_PDB = count_say.dbg
 
 # =============================================================================
@@ -193,17 +193,512 @@ build CMakeFiles/count_subarr.dir/daily_q/count_subarr_with_f_bounds.cpp.o: CXX_
 
 
 #############################################
-# Link the executable count_subarr
+# Link the executable bin/count_subarr
 
-build count_subarr: CXX_EXECUTABLE_LINKER__count_subarr_Debug CMakeFiles/count_subarr.dir/daily_q/count_subarr_with_f_bounds.cpp.o
+build bin/count_subarr: CXX_EXECUTABLE_LINKER__count_subarr_Debug CMakeFiles/count_subarr.dir/daily_q/count_subarr_with_f_bounds.cpp.o
   DEP_FILE = CMakeFiles/count_subarr.dir/link.d
   FLAGS = -g
   LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/count_subarr.dir/link.d
   OBJECT_DIR = CMakeFiles/count_subarr.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = count_subarr
+  TARGET_FILE = bin/count_subarr
   TARGET_PDB = count_subarr.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target count_subarr_with_cond
+
+
+#############################################
+# Order-only phony target for count_subarr_with_cond
+
+build cmake_object_order_depends_target_count_subarr_with_cond: phony || .
+
+build CMakeFiles/count_subarr_with_cond.dir/daily_q/count_subarr_with_cond.cpp.o: CXX_COMPILER__count_subarr_with_cond_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/count_subarr_with_cond.cpp || cmake_object_order_depends_target_count_subarr_with_cond
+  DEP_FILE = CMakeFiles/count_subarr_with_cond.dir/daily_q/count_subarr_with_cond.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/count_subarr_with_cond.dir
+  OBJECT_FILE_DIR = CMakeFiles/count_subarr_with_cond.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target count_subarr_with_cond
+
+
+#############################################
+# Link the executable bin/count_subarr_with_cond
+
+build bin/count_subarr_with_cond: CXX_EXECUTABLE_LINKER__count_subarr_with_cond_Debug CMakeFiles/count_subarr_with_cond.dir/daily_q/count_subarr_with_cond.cpp.o
+  DEP_FILE = CMakeFiles/count_subarr_with_cond.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/count_subarr_with_cond.dir/link.d
+  OBJECT_DIR = CMakeFiles/count_subarr_with_cond.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/count_subarr_with_cond
+  TARGET_PDB = count_subarr_with_cond.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target house_robber
+
+
+#############################################
+# Order-only phony target for house_robber
+
+build cmake_object_order_depends_target_house_robber: phony || .
+
+build CMakeFiles/house_robber.dir/top_interview_150/213._House_Robber_2.cpp.o: CXX_COMPILER__house_robber_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/top_interview_150/213.$ House$ Robber$ 2.cpp || cmake_object_order_depends_target_house_robber
+  DEP_FILE = CMakeFiles/house_robber.dir/top_interview_150/213._House_Robber_2.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/house_robber.dir
+  OBJECT_FILE_DIR = CMakeFiles/house_robber.dir/top_interview_150
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target house_robber
+
+
+#############################################
+# Link the executable bin/house_robber
+
+build bin/house_robber: CXX_EXECUTABLE_LINKER__house_robber_Debug CMakeFiles/house_robber.dir/top_interview_150/213._House_Robber_2.cpp.o
+  DEP_FILE = CMakeFiles/house_robber.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/house_robber.dir/link.d
+  OBJECT_DIR = CMakeFiles/house_robber.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/house_robber
+  TARGET_PDB = house_robber.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target count_subarrays_with_score_less_than_k
+
+
+#############################################
+# Order-only phony target for count_subarrays_with_score_less_than_k
+
+build cmake_object_order_depends_target_count_subarrays_with_score_less_than_k: phony || .
+
+build CMakeFiles/count_subarrays_with_score_less_than_k.dir/daily_q/2302._Count_Subarrays_With_Score_Less_Than_K.cpp.o: CXX_COMPILER__count_subarrays_with_score_less_than_k_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/2302.$ Count$ Subarrays$ With$ Score$ Less$ Than$ K.cpp || cmake_object_order_depends_target_count_subarrays_with_score_less_than_k
+  DEP_FILE = CMakeFiles/count_subarrays_with_score_less_than_k.dir/daily_q/2302._Count_Subarrays_With_Score_Less_Than_K.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/count_subarrays_with_score_less_than_k.dir
+  OBJECT_FILE_DIR = CMakeFiles/count_subarrays_with_score_less_than_k.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target count_subarrays_with_score_less_than_k
+
+
+#############################################
+# Link the executable bin/count_subarrays_with_score_less_than_k
+
+build bin/count_subarrays_with_score_less_than_k: CXX_EXECUTABLE_LINKER__count_subarrays_with_score_less_than_k_Debug CMakeFiles/count_subarrays_with_score_less_than_k.dir/daily_q/2302._Count_Subarrays_With_Score_Less_Than_K.cpp.o
+  DEP_FILE = CMakeFiles/count_subarrays_with_score_less_than_k.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/count_subarrays_with_score_less_than_k.dir/link.d
+  OBJECT_DIR = CMakeFiles/count_subarrays_with_score_less_than_k.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/count_subarrays_with_score_less_than_k
+  TARGET_PDB = count_subarrays_with_score_less_than_k.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target count_subarrays_where_max_k
+
+
+#############################################
+# Order-only phony target for count_subarrays_where_max_k
+
+build cmake_object_order_depends_target_count_subarrays_where_max_k: phony || .
+
+build CMakeFiles/count_subarrays_where_max_k.dir/daily_q/2962._Count_Subarrays_Where_Max_Element_Appears_at_Least_K_Times.cpp.o: CXX_COMPILER__count_subarrays_where_max_k_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/2962.$ Count$ Subarrays$ Where$ Max$ Element$ Appears$ at$ Least$ K$ Times.cpp || cmake_object_order_depends_target_count_subarrays_where_max_k
+  DEP_FILE = CMakeFiles/count_subarrays_where_max_k.dir/daily_q/2962._Count_Subarrays_Where_Max_Element_Appears_at_Least_K_Times.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/count_subarrays_where_max_k.dir
+  OBJECT_FILE_DIR = CMakeFiles/count_subarrays_where_max_k.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target count_subarrays_where_max_k
+
+
+#############################################
+# Link the executable bin/count_subarrays_where_max_k
+
+build bin/count_subarrays_where_max_k: CXX_EXECUTABLE_LINKER__count_subarrays_where_max_k_Debug CMakeFiles/count_subarrays_where_max_k.dir/daily_q/2962._Count_Subarrays_Where_Max_Element_Appears_at_Least_K_Times.cpp.o
+  DEP_FILE = CMakeFiles/count_subarrays_where_max_k.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/count_subarrays_where_max_k.dir/link.d
+  OBJECT_DIR = CMakeFiles/count_subarrays_where_max_k.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/count_subarrays_where_max_k
+  TARGET_PDB = count_subarrays_where_max_k.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target even_number_of_digits
+
+
+#############################################
+# Order-only phony target for even_number_of_digits
+
+build cmake_object_order_depends_target_even_number_of_digits: phony || .
+
+build CMakeFiles/even_number_of_digits.dir/daily_q/1295._Find_Numbers_with_Even_Number_of_Digits.cpp.o: CXX_COMPILER__even_number_of_digits_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/1295.$ Find$ Numbers$ with$ Even$ Number$ of$ Digits.cpp || cmake_object_order_depends_target_even_number_of_digits
+  DEP_FILE = CMakeFiles/even_number_of_digits.dir/daily_q/1295._Find_Numbers_with_Even_Number_of_Digits.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/even_number_of_digits.dir
+  OBJECT_FILE_DIR = CMakeFiles/even_number_of_digits.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target even_number_of_digits
+
+
+#############################################
+# Link the executable bin/even_number_of_digits
+
+build bin/even_number_of_digits: CXX_EXECUTABLE_LINKER__even_number_of_digits_Debug CMakeFiles/even_number_of_digits.dir/daily_q/1295._Find_Numbers_with_Even_Number_of_Digits.cpp.o
+  DEP_FILE = CMakeFiles/even_number_of_digits.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/even_number_of_digits.dir/link.d
+  OBJECT_DIR = CMakeFiles/even_number_of_digits.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/even_number_of_digits
+  TARGET_PDB = even_number_of_digits.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target maximum_num_of_tasks
+
+
+#############################################
+# Order-only phony target for maximum_num_of_tasks
+
+build cmake_object_order_depends_target_maximum_num_of_tasks: phony || .
+
+build CMakeFiles/maximum_num_of_tasks.dir/daily_q/2071._Maximum_Number_of_Tasks_You_Can_Assign.cpp.o: CXX_COMPILER__maximum_num_of_tasks_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/2071.$ Maximum$ Number$ of$ Tasks$ You$ Can$ Assign.cpp || cmake_object_order_depends_target_maximum_num_of_tasks
+  DEP_FILE = CMakeFiles/maximum_num_of_tasks.dir/daily_q/2071._Maximum_Number_of_Tasks_You_Can_Assign.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/maximum_num_of_tasks.dir
+  OBJECT_FILE_DIR = CMakeFiles/maximum_num_of_tasks.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target maximum_num_of_tasks
+
+
+#############################################
+# Link the executable bin/maximum_num_of_tasks
+
+build bin/maximum_num_of_tasks: CXX_EXECUTABLE_LINKER__maximum_num_of_tasks_Debug CMakeFiles/maximum_num_of_tasks.dir/daily_q/2071._Maximum_Number_of_Tasks_You_Can_Assign.cpp.o
+  DEP_FILE = CMakeFiles/maximum_num_of_tasks.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/maximum_num_of_tasks.dir/link.d
+  OBJECT_DIR = CMakeFiles/maximum_num_of_tasks.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/maximum_num_of_tasks
+  TARGET_PDB = maximum_num_of_tasks.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target push_dominoes
+
+
+#############################################
+# Order-only phony target for push_dominoes
+
+build cmake_object_order_depends_target_push_dominoes: phony || .
+
+build CMakeFiles/push_dominoes.dir/daily_q/838._Push_Dominoes.cpp.o: CXX_COMPILER__push_dominoes_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/838.$ Push$ Dominoes.cpp || cmake_object_order_depends_target_push_dominoes
+  DEP_FILE = CMakeFiles/push_dominoes.dir/daily_q/838._Push_Dominoes.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/push_dominoes.dir
+  OBJECT_FILE_DIR = CMakeFiles/push_dominoes.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target push_dominoes
+
+
+#############################################
+# Link the executable bin/push_dominoes
+
+build bin/push_dominoes: CXX_EXECUTABLE_LINKER__push_dominoes_Debug CMakeFiles/push_dominoes.dir/daily_q/838._Push_Dominoes.cpp.o
+  DEP_FILE = CMakeFiles/push_dominoes.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/push_dominoes.dir/link.d
+  OBJECT_DIR = CMakeFiles/push_dominoes.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/push_dominoes
+  TARGET_PDB = push_dominoes.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target minimum_domino_rot
+
+
+#############################################
+# Order-only phony target for minimum_domino_rot
+
+build cmake_object_order_depends_target_minimum_domino_rot: phony || .
+
+build CMakeFiles/minimum_domino_rot.dir/daily_q/1007._Minimum_Domino_Rotations_For_Equal_Row.cpp.o: CXX_COMPILER__minimum_domino_rot_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/1007.$ Minimum$ Domino$ Rotations$ For$ Equal$ Row.cpp || cmake_object_order_depends_target_minimum_domino_rot
+  DEP_FILE = CMakeFiles/minimum_domino_rot.dir/daily_q/1007._Minimum_Domino_Rotations_For_Equal_Row.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/minimum_domino_rot.dir
+  OBJECT_FILE_DIR = CMakeFiles/minimum_domino_rot.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target minimum_domino_rot
+
+
+#############################################
+# Link the executable bin/minimum_domino_rot
+
+build bin/minimum_domino_rot: CXX_EXECUTABLE_LINKER__minimum_domino_rot_Debug CMakeFiles/minimum_domino_rot.dir/daily_q/1007._Minimum_Domino_Rotations_For_Equal_Row.cpp.o
+  DEP_FILE = CMakeFiles/minimum_domino_rot.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/minimum_domino_rot.dir/link.d
+  OBJECT_DIR = CMakeFiles/minimum_domino_rot.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/minimum_domino_rot
+  TARGET_PDB = minimum_domino_rot.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target domino_and_tromino
+
+
+#############################################
+# Order-only phony target for domino_and_tromino
+
+build cmake_object_order_depends_target_domino_and_tromino: phony || .
+
+build CMakeFiles/domino_and_tromino.dir/daily_q/790._Domino_and_Tromino_Tiling.cpp.o: CXX_COMPILER__domino_and_tromino_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/790.$ Domino$ and$ Tromino$ Tiling.cpp || cmake_object_order_depends_target_domino_and_tromino
+  DEP_FILE = CMakeFiles/domino_and_tromino.dir/daily_q/790._Domino_and_Tromino_Tiling.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/domino_and_tromino.dir
+  OBJECT_FILE_DIR = CMakeFiles/domino_and_tromino.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target domino_and_tromino
+
+
+#############################################
+# Link the executable bin/domino_and_tromino
+
+build bin/domino_and_tromino: CXX_EXECUTABLE_LINKER__domino_and_tromino_Debug CMakeFiles/domino_and_tromino.dir/daily_q/790._Domino_and_Tromino_Tiling.cpp.o
+  DEP_FILE = CMakeFiles/domino_and_tromino.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/domino_and_tromino.dir/link.d
+  OBJECT_DIR = CMakeFiles/domino_and_tromino.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/domino_and_tromino
+  TARGET_PDB = domino_and_tromino.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target domino_and_equivalent
+
+
+#############################################
+# Order-only phony target for domino_and_equivalent
+
+build cmake_object_order_depends_target_domino_and_equivalent: phony || .
+
+build CMakeFiles/domino_and_equivalent.dir/daily_q/1128._Number_of_Equivalent_Domino_Pairs.cpp.o: CXX_COMPILER__domino_and_equivalent_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/1128.$ Number$ of$ Equivalent$ Domino$ Pairs.cpp || cmake_object_order_depends_target_domino_and_equivalent
+  DEP_FILE = CMakeFiles/domino_and_equivalent.dir/daily_q/1128._Number_of_Equivalent_Domino_Pairs.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/domino_and_equivalent.dir
+  OBJECT_FILE_DIR = CMakeFiles/domino_and_equivalent.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target domino_and_equivalent
+
+
+#############################################
+# Link the executable bin/domino_and_equivalent
+
+build bin/domino_and_equivalent: CXX_EXECUTABLE_LINKER__domino_and_equivalent_Debug CMakeFiles/domino_and_equivalent.dir/daily_q/1128._Number_of_Equivalent_Domino_Pairs.cpp.o
+  DEP_FILE = CMakeFiles/domino_and_equivalent.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/domino_and_equivalent.dir/link.d
+  OBJECT_DIR = CMakeFiles/domino_and_equivalent.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/domino_and_equivalent
+  TARGET_PDB = domino_and_equivalent.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target build_arr_from_perm
+
+
+#############################################
+# Order-only phony target for build_arr_from_perm
+
+build cmake_object_order_depends_target_build_arr_from_perm: phony || .
+
+build CMakeFiles/build_arr_from_perm.dir/daily_q/1920._Build_Array_from_Permutation.cpp.o: CXX_COMPILER__build_arr_from_perm_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/1920.$ Build$ Array$ from$ Permutation.cpp || cmake_object_order_depends_target_build_arr_from_perm
+  DEP_FILE = CMakeFiles/build_arr_from_perm.dir/daily_q/1920._Build_Array_from_Permutation.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/build_arr_from_perm.dir
+  OBJECT_FILE_DIR = CMakeFiles/build_arr_from_perm.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target build_arr_from_perm
+
+
+#############################################
+# Link the executable bin/build_arr_from_perm
+
+build bin/build_arr_from_perm: CXX_EXECUTABLE_LINKER__build_arr_from_perm_Debug CMakeFiles/build_arr_from_perm.dir/daily_q/1920._Build_Array_from_Permutation.cpp.o
+  DEP_FILE = CMakeFiles/build_arr_from_perm.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/build_arr_from_perm.dir/link.d
+  OBJECT_DIR = CMakeFiles/build_arr_from_perm.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/build_arr_from_perm
+  TARGET_PDB = build_arr_from_perm.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target find_min_time_to_reach_room
+
+
+#############################################
+# Order-only phony target for find_min_time_to_reach_room
+
+build cmake_object_order_depends_target_find_min_time_to_reach_room: phony || .
+
+build CMakeFiles/find_min_time_to_reach_room.dir/daily_q/3341._Find_Minimum_Time_to_Reach_Last_Room_I.cpp.o: CXX_COMPILER__find_min_time_to_reach_room_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/3341.$ Find$ Minimum$ Time$ to$ Reach$ Last$ Room$ I.cpp || cmake_object_order_depends_target_find_min_time_to_reach_room
+  DEP_FILE = CMakeFiles/find_min_time_to_reach_room.dir/daily_q/3341._Find_Minimum_Time_to_Reach_Last_Room_I.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/find_min_time_to_reach_room.dir
+  OBJECT_FILE_DIR = CMakeFiles/find_min_time_to_reach_room.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target find_min_time_to_reach_room
+
+
+#############################################
+# Link the executable bin/find_min_time_to_reach_room
+
+build bin/find_min_time_to_reach_room: CXX_EXECUTABLE_LINKER__find_min_time_to_reach_room_Debug CMakeFiles/find_min_time_to_reach_room.dir/daily_q/3341._Find_Minimum_Time_to_Reach_Last_Room_I.cpp.o
+  DEP_FILE = CMakeFiles/find_min_time_to_reach_room.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/find_min_time_to_reach_room.dir/link.d
+  OBJECT_DIR = CMakeFiles/find_min_time_to_reach_room.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/find_min_time_to_reach_room
+  TARGET_PDB = find_min_time_to_reach_room.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target find_min_time_to_each_room2
+
+
+#############################################
+# Order-only phony target for find_min_time_to_each_room2
+
+build cmake_object_order_depends_target_find_min_time_to_each_room2: phony || .
+
+build CMakeFiles/find_min_time_to_each_room2.dir/daily_q/3342._Find_Minimum_Time_to_Reach_Last_Room_II.cpp.o: CXX_COMPILER__find_min_time_to_each_room2_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/3342.$ Find$ Minimum$ Time$ to$ Reach$ Last$ Room$ II.cpp || cmake_object_order_depends_target_find_min_time_to_each_room2
+  DEP_FILE = CMakeFiles/find_min_time_to_each_room2.dir/daily_q/3342._Find_Minimum_Time_to_Reach_Last_Room_II.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/find_min_time_to_each_room2.dir
+  OBJECT_FILE_DIR = CMakeFiles/find_min_time_to_each_room2.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target find_min_time_to_each_room2
+
+
+#############################################
+# Link the executable bin/find_min_time_to_each_room2
+
+build bin/find_min_time_to_each_room2: CXX_EXECUTABLE_LINKER__find_min_time_to_each_room2_Debug CMakeFiles/find_min_time_to_each_room2.dir/daily_q/3342._Find_Minimum_Time_to_Reach_Last_Room_II.cpp.o
+  DEP_FILE = CMakeFiles/find_min_time_to_each_room2.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/find_min_time_to_each_room2.dir/link.d
+  OBJECT_DIR = CMakeFiles/find_min_time_to_each_room2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/find_min_time_to_each_room2
+  TARGET_PDB = find_min_time_to_each_room2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target house_robber_2_dp
+
+
+#############################################
+# Order-only phony target for house_robber_2_dp
+
+build cmake_object_order_depends_target_house_robber_2_dp: phony || .
+
+build CMakeFiles/house_robber_2_dp.dir/top_interview_150/213._House_Robber_2_DP.cpp.o: CXX_COMPILER__house_robber_2_dp_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/top_interview_150/213.$ House$ Robber$ 2$ DP.cpp || cmake_object_order_depends_target_house_robber_2_dp
+  DEP_FILE = CMakeFiles/house_robber_2_dp.dir/top_interview_150/213._House_Robber_2_DP.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/house_robber_2_dp.dir
+  OBJECT_FILE_DIR = CMakeFiles/house_robber_2_dp.dir/top_interview_150
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target house_robber_2_dp
+
+
+#############################################
+# Link the executable bin/house_robber_2_dp
+
+build bin/house_robber_2_dp: CXX_EXECUTABLE_LINKER__house_robber_2_dp_Debug CMakeFiles/house_robber_2_dp.dir/top_interview_150/213._House_Robber_2_DP.cpp.o
+  DEP_FILE = CMakeFiles/house_robber_2_dp.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/house_robber_2_dp.dir/link.d
+  OBJECT_DIR = CMakeFiles/house_robber_2_dp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/house_robber_2_dp
+  TARGET_PDB = house_robber_2_dp.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target temp
+
+
+#############################################
+# Order-only phony target for temp
+
+build cmake_object_order_depends_target_temp: phony || .
+
+build CMakeFiles/temp.dir/daily_q/temp.cpp.o: CXX_COMPILER__temp_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/temp.cpp || cmake_object_order_depends_target_temp
+  DEP_FILE = CMakeFiles/temp.dir/daily_q/temp.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/temp.dir
+  OBJECT_FILE_DIR = CMakeFiles/temp.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target temp
+
+
+#############################################
+# Link the executable bin/temp
+
+build bin/temp: CXX_EXECUTABLE_LINKER__temp_Debug CMakeFiles/temp.dir/daily_q/temp.cpp.o
+  DEP_FILE = CMakeFiles/temp.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/temp.dir/link.d
+  OBJECT_DIR = CMakeFiles/temp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/temp
+  TARGET_PDB = temp.dbg
 
 
 #############################################
@@ -231,6 +726,46 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build build_arr_from_perm: phony bin/build_arr_from_perm
+
+build candy: phony bin/candy
+
+build count_say: phony bin/count_say
+
+build count_subarr: phony bin/count_subarr
+
+build count_subarr_with_cond: phony bin/count_subarr_with_cond
+
+build count_subarrays_where_max_k: phony bin/count_subarrays_where_max_k
+
+build count_subarrays_with_score_less_than_k: phony bin/count_subarrays_with_score_less_than_k
+
+build domino_and_equivalent: phony bin/domino_and_equivalent
+
+build domino_and_tromino: phony bin/domino_and_tromino
+
+build even_number_of_digits: phony bin/even_number_of_digits
+
+build find_min_time_to_each_room2: phony bin/find_min_time_to_each_room2
+
+build find_min_time_to_reach_room: phony bin/find_min_time_to_reach_room
+
+build house_robber: phony bin/house_robber
+
+build house_robber_2_dp: phony bin/house_robber_2_dp
+
+build maximum_num_of_tasks: phony bin/maximum_num_of_tasks
+
+build merge_arr: phony bin/merge_arr
+
+build minimum_domino_rot: phony bin/minimum_domino_rot
+
+build push_dominoes: phony bin/push_dominoes
+
+build rem_el: phony bin/rem_el
+
+build temp: phony bin/temp
+
 # =============================================================================
 # Folder targets.
 
@@ -239,7 +774,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug
 
-build all: phony merge_arr rem_el candy count_say count_subarr
+build all: phony bin/merge_arr bin/rem_el bin/candy bin/count_say bin/count_subarr bin/count_subarr_with_cond bin/house_robber bin/count_subarrays_with_score_less_than_k bin/count_subarrays_where_max_k bin/even_number_of_digits bin/maximum_num_of_tasks bin/push_dominoes bin/minimum_domino_rot bin/domino_and_tromino bin/domino_and_equivalent bin/build_arr_from_perm bin/find_min_time_to_reach_room bin/find_min_time_to_each_room2 bin/house_robber_2_dp bin/temp
 
 # =============================================================================
 # Built-in targets

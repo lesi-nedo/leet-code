@@ -1,0 +1,231 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "leet_code_sol_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "build_arr_from_perm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-build_arr_from_perm-Debug-5cb53d28fde2f72873fe.json",
+					"name" : "build_arr_from_perm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "candy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-candy-Debug-2e7229e39a58c975ce6b.json",
+					"name" : "candy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "count_say::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-count_say-Debug-febabcade920d22e9db3.json",
+					"name" : "count_say",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "count_subarr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-count_subarr-Debug-7d80f0df70678943b89c.json",
+					"name" : "count_subarr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "count_subarr_with_cond::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-count_subarr_with_cond-Debug-5e1147a32afecb6f95bc.json",
+					"name" : "count_subarr_with_cond",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "count_subarrays_where_max_k::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-count_subarrays_where_max_k-Debug-559955e1ef9ca6eacde2.json",
+					"name" : "count_subarrays_where_max_k",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "count_subarrays_with_score_less_than_k::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-count_subarrays_with_score_less_than_k-Debug-3465a3290e8cb405f0f7.json",
+					"name" : "count_subarrays_with_score_less_than_k",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "domino_and_equivalent::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-domino_and_equivalent-Debug-cbefb3d701cd519baa57.json",
+					"name" : "domino_and_equivalent",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "domino_and_tromino::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-domino_and_tromino-Debug-808c843e625cec71471f.json",
+					"name" : "domino_and_tromino",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "even_number_of_digits::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-even_number_of_digits-Debug-030d2b19026edd325a28.json",
+					"name" : "even_number_of_digits",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "find_min_time_to_each_room2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-find_min_time_to_each_room2-Debug-0b083c460522fefa2810.json",
+					"name" : "find_min_time_to_each_room2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "find_min_time_to_reach_room::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-find_min_time_to_reach_room-Debug-9e1a40ec88f0c33bb171.json",
+					"name" : "find_min_time_to_reach_room",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "house_robber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-house_robber-Debug-893509c6a791b01344a1.json",
+					"name" : "house_robber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "house_robber_2_dp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-house_robber_2_dp-Debug-1f214f9b9a240b0c8fa2.json",
+					"name" : "house_robber_2_dp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "maximum_num_of_tasks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-maximum_num_of_tasks-Debug-8d2cf5529764ef8044a3.json",
+					"name" : "maximum_num_of_tasks",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "merge_arr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-merge_arr-Debug-068d8313e4f356765541.json",
+					"name" : "merge_arr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "minimum_domino_rot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-minimum_domino_rot-Debug-c99f6e3ebe37f3edf897.json",
+					"name" : "minimum_domino_rot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "push_dominoes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-push_dominoes-Debug-44a9a5560542b514c1d8.json",
+					"name" : "push_dominoes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rem_el::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rem_el-Debug-c364103df7aee5b766d3.json",
+					"name" : "rem_el",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "temp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-temp-Debug-5b6e9f1eac804b388363.json",
+					"name" : "temp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug",
+		"source" : "/home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,33 +1,4 @@
 /home/lesi-nedo/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/lesi-nedo/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/ninja/linux/x64/ninja -G Ninja -S /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp -B /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug
 -- Configuring done (0.0s)
-CMake Error at CMakeLists.txt:12 (add_executable):
-  Cannot find source file:
-
-    top_interview_150/"213. House Robber 2.cpp"
-
-
-CMake Error at CMakeLists.txt:13 (add_executable):
-  Cannot find source file:
-
-    daily_q/"2302. Count Subarrays With Score Less Than K".cpp
-
-
-CMake Error at CMakeLists.txt:14 (add_executable):
-  Cannot find source file:
-
-    daily_a/"2962. Count Subarrays Where Max Element Appears at Least K Times".cpp
-
-
-CMake Error at CMakeLists.txt:12 (add_executable):
-  No SOURCES given to target: house_robber
-
-
-CMake Error at CMakeLists.txt:13 (add_executable):
-  No SOURCES given to target: count_subarrays_with_score_less_than_k
-
-
-CMake Error at CMakeLists.txt:14 (add_executable):
-  No SOURCES given to target: count_subarrays_where_max_k
-
-
-CMake Generate step failed.  Build files cannot be regenerated correctly.
+-- Generating done (0.0s)
+-- Build files have been written to: /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug
