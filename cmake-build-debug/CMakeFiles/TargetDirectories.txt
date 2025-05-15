@@ -17,6 +17,16 @@
 /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/find_min_time_to_reach_room.dir
 /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/find_min_time_to_each_room2.dir
 /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/house_robber_2_dp.dir
-/home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/temp.dir
+/home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/count_numb_balnc_perm.dir
+/home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/min_equal_sum_of_two_arr.dir
+/home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/part_equal_subset.dir
+/home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/three_consecutive_odds.dir
+/home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/two_sum.dir
+/home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/design_search_data_struct.dir
+/home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/prefix_impl.dir
+/home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/finding_3digit_even_num.dir
+/home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/total_char_after_trans1.dir
+/home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/total_char_after_trans2.dir
+/home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/longest_uneq_adjanc_group1.dir
 /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

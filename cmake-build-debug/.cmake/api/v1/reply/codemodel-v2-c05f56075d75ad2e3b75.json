@@ -34,7 +34,17 @@
 						16,
 						17,
 						18,
-						19
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
 					]
 				}
 			],
@@ -68,7 +78,17 @@
 						16,
 						17,
 						18,
-						19
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
 					]
 				}
 			],
@@ -86,6 +106,13 @@
 					"id" : "candy::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-candy-Debug-2e7229e39a58c975ce6b.json",
 					"name" : "candy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "count_numb_balnc_perm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-count_numb_balnc_perm-Debug-97fd1faeeb5d169e6f40.json",
+					"name" : "count_numb_balnc_perm",
 					"projectIndex" : 0
 				},
 				{
@@ -125,6 +152,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "design_search_data_struct::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-design_search_data_struct-Debug-394b4580ef244a3b1773.json",
+					"name" : "design_search_data_struct",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "domino_and_equivalent::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-domino_and_equivalent-Debug-cbefb3d701cd519baa57.json",
 					"name" : "domino_and_equivalent",
@@ -160,6 +194,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "finding_3digit_even_num::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-finding_3digit_even_num-Debug-fbb5f05aef339f4d02d3.json",
+					"name" : "finding_3digit_even_num",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "house_robber::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-house_robber-Debug-893509c6a791b01344a1.json",
 					"name" : "house_robber",
@@ -170,6 +211,13 @@
 					"id" : "house_robber_2_dp::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-house_robber_2_dp-Debug-1f214f9b9a240b0c8fa2.json",
 					"name" : "house_robber_2_dp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "longest_uneq_adjanc_group1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-longest_uneq_adjanc_group1-Debug-7a65bda4325d60b417ff.json",
+					"name" : "longest_uneq_adjanc_group1",
 					"projectIndex" : 0
 				},
 				{
@@ -188,9 +236,30 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "min_equal_sum_of_two_arr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-min_equal_sum_of_two_arr-Debug-ac0018a619a89e7325d2.json",
+					"name" : "min_equal_sum_of_two_arr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "minimum_domino_rot::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-minimum_domino_rot-Debug-c99f6e3ebe37f3edf897.json",
 					"name" : "minimum_domino_rot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "part_equal_subset::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-part_equal_subset-Debug-b93cc682cdb5115b3009.json",
+					"name" : "part_equal_subset",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prefix_impl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prefix_impl-Debug-f474effca221d3870ee0.json",
+					"name" : "prefix_impl",
 					"projectIndex" : 0
 				},
 				{
@@ -209,9 +278,30 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "temp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-temp-Debug-5b6e9f1eac804b388363.json",
-					"name" : "temp",
+					"id" : "three_consecutive_odds::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-three_consecutive_odds-Debug-22b5955c63c678fffaa9.json",
+					"name" : "three_consecutive_odds",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "total_char_after_trans1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-total_char_after_trans1-Debug-9eb583d4801e8f63de52.json",
+					"name" : "total_char_after_trans1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "total_char_after_trans2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-total_char_after_trans2-Debug-e468a233d8d20cff319f.json",
+					"name" : "total_char_after_trans2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "two_sum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-two_sum-Debug-f5bb238fa8ef2dec3e49.json",
+					"name" : "two_sum",
 					"projectIndex" : 0
 				}
 			]

@@ -668,37 +668,368 @@ build bin/house_robber_2_dp: CXX_EXECUTABLE_LINKER__house_robber_2_dp_Debug CMak
   TARGET_PDB = house_robber_2_dp.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target temp
+# Object build statements for EXECUTABLE target count_numb_balnc_perm
 
 
 #############################################
-# Order-only phony target for temp
+# Order-only phony target for count_numb_balnc_perm
 
-build cmake_object_order_depends_target_temp: phony || .
+build cmake_object_order_depends_target_count_numb_balnc_perm: phony || .
 
-build CMakeFiles/temp.dir/daily_q/temp.cpp.o: CXX_COMPILER__temp_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/temp.cpp || cmake_object_order_depends_target_temp
-  DEP_FILE = CMakeFiles/temp.dir/daily_q/temp.cpp.o.d
+build CMakeFiles/count_numb_balnc_perm.dir/daily_q/3343._Count_Number_of_Balanced_Permutations.cpp.o: CXX_COMPILER__count_numb_balnc_perm_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/3343.$ Count$ Number$ of$ Balanced$ Permutations.cpp || cmake_object_order_depends_target_count_numb_balnc_perm
+  DEP_FILE = CMakeFiles/count_numb_balnc_perm.dir/daily_q/3343._Count_Number_of_Balanced_Permutations.cpp.o.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/temp.dir
-  OBJECT_FILE_DIR = CMakeFiles/temp.dir/daily_q
+  OBJECT_DIR = CMakeFiles/count_numb_balnc_perm.dir
+  OBJECT_FILE_DIR = CMakeFiles/count_numb_balnc_perm.dir/daily_q
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target temp
+# Link build statements for EXECUTABLE target count_numb_balnc_perm
 
 
 #############################################
-# Link the executable bin/temp
+# Link the executable bin/count_numb_balnc_perm
 
-build bin/temp: CXX_EXECUTABLE_LINKER__temp_Debug CMakeFiles/temp.dir/daily_q/temp.cpp.o
-  DEP_FILE = CMakeFiles/temp.dir/link.d
+build bin/count_numb_balnc_perm: CXX_EXECUTABLE_LINKER__count_numb_balnc_perm_Debug CMakeFiles/count_numb_balnc_perm.dir/daily_q/3343._Count_Number_of_Balanced_Permutations.cpp.o
+  DEP_FILE = CMakeFiles/count_numb_balnc_perm.dir/link.d
   FLAGS = -g
-  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/temp.dir/link.d
-  OBJECT_DIR = CMakeFiles/temp.dir
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/count_numb_balnc_perm.dir/link.d
+  OBJECT_DIR = CMakeFiles/count_numb_balnc_perm.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = bin/temp
-  TARGET_PDB = temp.dbg
+  TARGET_FILE = bin/count_numb_balnc_perm
+  TARGET_PDB = count_numb_balnc_perm.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target min_equal_sum_of_two_arr
+
+
+#############################################
+# Order-only phony target for min_equal_sum_of_two_arr
+
+build cmake_object_order_depends_target_min_equal_sum_of_two_arr: phony || .
+
+build CMakeFiles/min_equal_sum_of_two_arr.dir/daily_q/2918._Minimum_Equal_Sum_of_Two_Arrays_After_Replacing_Zeros.cpp.o: CXX_COMPILER__min_equal_sum_of_two_arr_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/2918.$ Minimum$ Equal$ Sum$ of$ Two$ Arrays$ After$ Replacing$ Zeros.cpp || cmake_object_order_depends_target_min_equal_sum_of_two_arr
+  DEP_FILE = CMakeFiles/min_equal_sum_of_two_arr.dir/daily_q/2918._Minimum_Equal_Sum_of_Two_Arrays_After_Replacing_Zeros.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/min_equal_sum_of_two_arr.dir
+  OBJECT_FILE_DIR = CMakeFiles/min_equal_sum_of_two_arr.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target min_equal_sum_of_two_arr
+
+
+#############################################
+# Link the executable bin/min_equal_sum_of_two_arr
+
+build bin/min_equal_sum_of_two_arr: CXX_EXECUTABLE_LINKER__min_equal_sum_of_two_arr_Debug CMakeFiles/min_equal_sum_of_two_arr.dir/daily_q/2918._Minimum_Equal_Sum_of_Two_Arrays_After_Replacing_Zeros.cpp.o
+  DEP_FILE = CMakeFiles/min_equal_sum_of_two_arr.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/min_equal_sum_of_two_arr.dir/link.d
+  OBJECT_DIR = CMakeFiles/min_equal_sum_of_two_arr.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/min_equal_sum_of_two_arr
+  TARGET_PDB = min_equal_sum_of_two_arr.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target part_equal_subset
+
+
+#############################################
+# Order-only phony target for part_equal_subset
+
+build cmake_object_order_depends_target_part_equal_subset: phony || .
+
+build CMakeFiles/part_equal_subset.dir/top_interview_150/416._Partition_Equal_Subset_Sum.cpp.o: CXX_COMPILER__part_equal_subset_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/top_interview_150/416.$ Partition$ Equal$ Subset$ Sum.cpp || cmake_object_order_depends_target_part_equal_subset
+  DEP_FILE = CMakeFiles/part_equal_subset.dir/top_interview_150/416._Partition_Equal_Subset_Sum.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/part_equal_subset.dir
+  OBJECT_FILE_DIR = CMakeFiles/part_equal_subset.dir/top_interview_150
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target part_equal_subset
+
+
+#############################################
+# Link the executable bin/part_equal_subset
+
+build bin/part_equal_subset: CXX_EXECUTABLE_LINKER__part_equal_subset_Debug CMakeFiles/part_equal_subset.dir/top_interview_150/416._Partition_Equal_Subset_Sum.cpp.o
+  DEP_FILE = CMakeFiles/part_equal_subset.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/part_equal_subset.dir/link.d
+  OBJECT_DIR = CMakeFiles/part_equal_subset.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/part_equal_subset
+  TARGET_PDB = part_equal_subset.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target three_consecutive_odds
+
+
+#############################################
+# Order-only phony target for three_consecutive_odds
+
+build cmake_object_order_depends_target_three_consecutive_odds: phony || .
+
+build CMakeFiles/three_consecutive_odds.dir/daily_q/1550._Three_Consecutive_Odds.cpp.o: CXX_COMPILER__three_consecutive_odds_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/1550.$ Three$ Consecutive$ Odds.cpp || cmake_object_order_depends_target_three_consecutive_odds
+  DEP_FILE = CMakeFiles/three_consecutive_odds.dir/daily_q/1550._Three_Consecutive_Odds.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/three_consecutive_odds.dir
+  OBJECT_FILE_DIR = CMakeFiles/three_consecutive_odds.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target three_consecutive_odds
+
+
+#############################################
+# Link the executable bin/three_consecutive_odds
+
+build bin/three_consecutive_odds: CXX_EXECUTABLE_LINKER__three_consecutive_odds_Debug CMakeFiles/three_consecutive_odds.dir/daily_q/1550._Three_Consecutive_Odds.cpp.o
+  DEP_FILE = CMakeFiles/three_consecutive_odds.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/three_consecutive_odds.dir/link.d
+  OBJECT_DIR = CMakeFiles/three_consecutive_odds.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/three_consecutive_odds
+  TARGET_PDB = three_consecutive_odds.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target two_sum
+
+
+#############################################
+# Order-only phony target for two_sum
+
+build cmake_object_order_depends_target_two_sum: phony || .
+
+build CMakeFiles/two_sum.dir/top_interview_150/1._Two_Sum.cpp.o: CXX_COMPILER__two_sum_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/top_interview_150/1.$ Two$ Sum.cpp || cmake_object_order_depends_target_two_sum
+  DEP_FILE = CMakeFiles/two_sum.dir/top_interview_150/1._Two_Sum.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/two_sum.dir
+  OBJECT_FILE_DIR = CMakeFiles/two_sum.dir/top_interview_150
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target two_sum
+
+
+#############################################
+# Link the executable bin/two_sum
+
+build bin/two_sum: CXX_EXECUTABLE_LINKER__two_sum_Debug CMakeFiles/two_sum.dir/top_interview_150/1._Two_Sum.cpp.o
+  DEP_FILE = CMakeFiles/two_sum.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/two_sum.dir/link.d
+  OBJECT_DIR = CMakeFiles/two_sum.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/two_sum
+  TARGET_PDB = two_sum.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target design_search_data_struct
+
+
+#############################################
+# Order-only phony target for design_search_data_struct
+
+build cmake_object_order_depends_target_design_search_data_struct: phony || .
+
+build CMakeFiles/design_search_data_struct.dir/top_interview_150/211._Design_Add_and_Search_Words_Data_Structure.cpp.o: CXX_COMPILER__design_search_data_struct_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/top_interview_150/211.$ Design$ Add$ and$ Search$ Words$ Data$ Structure.cpp || cmake_object_order_depends_target_design_search_data_struct
+  DEP_FILE = CMakeFiles/design_search_data_struct.dir/top_interview_150/211._Design_Add_and_Search_Words_Data_Structure.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/design_search_data_struct.dir
+  OBJECT_FILE_DIR = CMakeFiles/design_search_data_struct.dir/top_interview_150
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target design_search_data_struct
+
+
+#############################################
+# Link the executable bin/design_search_data_struct
+
+build bin/design_search_data_struct: CXX_EXECUTABLE_LINKER__design_search_data_struct_Debug CMakeFiles/design_search_data_struct.dir/top_interview_150/211._Design_Add_and_Search_Words_Data_Structure.cpp.o
+  DEP_FILE = CMakeFiles/design_search_data_struct.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/design_search_data_struct.dir/link.d
+  OBJECT_DIR = CMakeFiles/design_search_data_struct.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/design_search_data_struct
+  TARGET_PDB = design_search_data_struct.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target prefix_impl
+
+
+#############################################
+# Order-only phony target for prefix_impl
+
+build cmake_object_order_depends_target_prefix_impl: phony || .
+
+build CMakeFiles/prefix_impl.dir/top_interview_150/208._Implement_Trie_(Prefix_Tree).cpp.o: CXX_COMPILER__prefix_impl_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/top_interview_150/208.$ Implement$ Trie$ (Prefix$ Tree).cpp || cmake_object_order_depends_target_prefix_impl
+  DEP_FILE = "CMakeFiles/prefix_impl.dir/top_interview_150/208._Implement_Trie_(Prefix_Tree).cpp.o.d"
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/prefix_impl.dir
+  OBJECT_FILE_DIR = CMakeFiles/prefix_impl.dir/top_interview_150
+  depfile = CMakeFiles/prefix_impl.dir/top_interview_150/208._Implement_Trie_(Prefix_Tree).cpp.o.d
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target prefix_impl
+
+
+#############################################
+# Link the executable bin/prefix_impl
+
+build bin/prefix_impl: CXX_EXECUTABLE_LINKER__prefix_impl_Debug CMakeFiles/prefix_impl.dir/top_interview_150/208._Implement_Trie_(Prefix_Tree).cpp.o
+  DEP_FILE = CMakeFiles/prefix_impl.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/prefix_impl.dir/link.d
+  OBJECT_DIR = CMakeFiles/prefix_impl.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/prefix_impl
+  TARGET_PDB = prefix_impl.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target finding_3digit_even_num
+
+
+#############################################
+# Order-only phony target for finding_3digit_even_num
+
+build cmake_object_order_depends_target_finding_3digit_even_num: phony || .
+
+build CMakeFiles/finding_3digit_even_num.dir/daily_q/2094._Finding_3-Digit_Even_Numbers.cpp.o: CXX_COMPILER__finding_3digit_even_num_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/2094.$ Finding$ 3-Digit$ Even$ Numbers.cpp || cmake_object_order_depends_target_finding_3digit_even_num
+  DEP_FILE = CMakeFiles/finding_3digit_even_num.dir/daily_q/2094._Finding_3-Digit_Even_Numbers.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/finding_3digit_even_num.dir
+  OBJECT_FILE_DIR = CMakeFiles/finding_3digit_even_num.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target finding_3digit_even_num
+
+
+#############################################
+# Link the executable bin/finding_3digit_even_num
+
+build bin/finding_3digit_even_num: CXX_EXECUTABLE_LINKER__finding_3digit_even_num_Debug CMakeFiles/finding_3digit_even_num.dir/daily_q/2094._Finding_3-Digit_Even_Numbers.cpp.o
+  DEP_FILE = CMakeFiles/finding_3digit_even_num.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/finding_3digit_even_num.dir/link.d
+  OBJECT_DIR = CMakeFiles/finding_3digit_even_num.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/finding_3digit_even_num
+  TARGET_PDB = finding_3digit_even_num.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target total_char_after_trans1
+
+
+#############################################
+# Order-only phony target for total_char_after_trans1
+
+build cmake_object_order_depends_target_total_char_after_trans1: phony || .
+
+build CMakeFiles/total_char_after_trans1.dir/daily_q/3335._Total_Characters_in_String_After_Transformations_I.cpp.o: CXX_COMPILER__total_char_after_trans1_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/3335.$ Total$ Characters$ in$ String$ After$ Transformations$ I.cpp || cmake_object_order_depends_target_total_char_after_trans1
+  DEP_FILE = CMakeFiles/total_char_after_trans1.dir/daily_q/3335._Total_Characters_in_String_After_Transformations_I.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/total_char_after_trans1.dir
+  OBJECT_FILE_DIR = CMakeFiles/total_char_after_trans1.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target total_char_after_trans1
+
+
+#############################################
+# Link the executable bin/total_char_after_trans1
+
+build bin/total_char_after_trans1: CXX_EXECUTABLE_LINKER__total_char_after_trans1_Debug CMakeFiles/total_char_after_trans1.dir/daily_q/3335._Total_Characters_in_String_After_Transformations_I.cpp.o
+  DEP_FILE = CMakeFiles/total_char_after_trans1.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/total_char_after_trans1.dir/link.d
+  OBJECT_DIR = CMakeFiles/total_char_after_trans1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/total_char_after_trans1
+  TARGET_PDB = total_char_after_trans1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target total_char_after_trans2
+
+
+#############################################
+# Order-only phony target for total_char_after_trans2
+
+build cmake_object_order_depends_target_total_char_after_trans2: phony || .
+
+build CMakeFiles/total_char_after_trans2.dir/daily_q/3337._Total_Characters_in_String_After_Transformations_II.cpp.o: CXX_COMPILER__total_char_after_trans2_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/3337.$ Total$ Characters$ in$ String$ After$ Transformations$ II.cpp || cmake_object_order_depends_target_total_char_after_trans2
+  DEP_FILE = CMakeFiles/total_char_after_trans2.dir/daily_q/3337._Total_Characters_in_String_After_Transformations_II.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/total_char_after_trans2.dir
+  OBJECT_FILE_DIR = CMakeFiles/total_char_after_trans2.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target total_char_after_trans2
+
+
+#############################################
+# Link the executable bin/total_char_after_trans2
+
+build bin/total_char_after_trans2: CXX_EXECUTABLE_LINKER__total_char_after_trans2_Debug CMakeFiles/total_char_after_trans2.dir/daily_q/3337._Total_Characters_in_String_After_Transformations_II.cpp.o
+  DEP_FILE = CMakeFiles/total_char_after_trans2.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/total_char_after_trans2.dir/link.d
+  OBJECT_DIR = CMakeFiles/total_char_after_trans2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/total_char_after_trans2
+  TARGET_PDB = total_char_after_trans2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target longest_uneq_adjanc_group1
+
+
+#############################################
+# Order-only phony target for longest_uneq_adjanc_group1
+
+build cmake_object_order_depends_target_longest_uneq_adjanc_group1: phony || .
+
+build CMakeFiles/longest_uneq_adjanc_group1.dir/daily_q/2900._Longest_Unequal_Adjacent_Groups_Subsequence_I.cpp.o: CXX_COMPILER__longest_uneq_adjanc_group1_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/2900.$ Longest$ Unequal$ Adjacent$ Groups$ Subsequence$ I.cpp || cmake_object_order_depends_target_longest_uneq_adjanc_group1
+  DEP_FILE = CMakeFiles/longest_uneq_adjanc_group1.dir/daily_q/2900._Longest_Unequal_Adjacent_Groups_Subsequence_I.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/longest_uneq_adjanc_group1.dir
+  OBJECT_FILE_DIR = CMakeFiles/longest_uneq_adjanc_group1.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target longest_uneq_adjanc_group1
+
+
+#############################################
+# Link the executable bin/longest_uneq_adjanc_group1
+
+build bin/longest_uneq_adjanc_group1: CXX_EXECUTABLE_LINKER__longest_uneq_adjanc_group1_Debug CMakeFiles/longest_uneq_adjanc_group1.dir/daily_q/2900._Longest_Unequal_Adjacent_Groups_Subsequence_I.cpp.o
+  DEP_FILE = CMakeFiles/longest_uneq_adjanc_group1.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/longest_uneq_adjanc_group1.dir/link.d
+  OBJECT_DIR = CMakeFiles/longest_uneq_adjanc_group1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/longest_uneq_adjanc_group1
+  TARGET_PDB = longest_uneq_adjanc_group1.dbg
 
 
 #############################################
@@ -730,6 +1061,8 @@ build build_arr_from_perm: phony bin/build_arr_from_perm
 
 build candy: phony bin/candy
 
+build count_numb_balnc_perm: phony bin/count_numb_balnc_perm
+
 build count_say: phony bin/count_say
 
 build count_subarr: phony bin/count_subarr
@@ -739,6 +1072,8 @@ build count_subarr_with_cond: phony bin/count_subarr_with_cond
 build count_subarrays_where_max_k: phony bin/count_subarrays_where_max_k
 
 build count_subarrays_with_score_less_than_k: phony bin/count_subarrays_with_score_less_than_k
+
+build design_search_data_struct: phony bin/design_search_data_struct
 
 build domino_and_equivalent: phony bin/domino_and_equivalent
 
@@ -750,21 +1085,37 @@ build find_min_time_to_each_room2: phony bin/find_min_time_to_each_room2
 
 build find_min_time_to_reach_room: phony bin/find_min_time_to_reach_room
 
+build finding_3digit_even_num: phony bin/finding_3digit_even_num
+
 build house_robber: phony bin/house_robber
 
 build house_robber_2_dp: phony bin/house_robber_2_dp
+
+build longest_uneq_adjanc_group1: phony bin/longest_uneq_adjanc_group1
 
 build maximum_num_of_tasks: phony bin/maximum_num_of_tasks
 
 build merge_arr: phony bin/merge_arr
 
+build min_equal_sum_of_two_arr: phony bin/min_equal_sum_of_two_arr
+
 build minimum_domino_rot: phony bin/minimum_domino_rot
+
+build part_equal_subset: phony bin/part_equal_subset
+
+build prefix_impl: phony bin/prefix_impl
 
 build push_dominoes: phony bin/push_dominoes
 
 build rem_el: phony bin/rem_el
 
-build temp: phony bin/temp
+build three_consecutive_odds: phony bin/three_consecutive_odds
+
+build total_char_after_trans1: phony bin/total_char_after_trans1
+
+build total_char_after_trans2: phony bin/total_char_after_trans2
+
+build two_sum: phony bin/two_sum
 
 # =============================================================================
 # Folder targets.
@@ -774,7 +1125,7 @@ build temp: phony bin/temp
 #############################################
 # Folder: /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug
 
-build all: phony bin/merge_arr bin/rem_el bin/candy bin/count_say bin/count_subarr bin/count_subarr_with_cond bin/house_robber bin/count_subarrays_with_score_less_than_k bin/count_subarrays_where_max_k bin/even_number_of_digits bin/maximum_num_of_tasks bin/push_dominoes bin/minimum_domino_rot bin/domino_and_tromino bin/domino_and_equivalent bin/build_arr_from_perm bin/find_min_time_to_reach_room bin/find_min_time_to_each_room2 bin/house_robber_2_dp bin/temp
+build all: phony bin/merge_arr bin/rem_el bin/candy bin/count_say bin/count_subarr bin/count_subarr_with_cond bin/house_robber bin/count_subarrays_with_score_less_than_k bin/count_subarrays_where_max_k bin/even_number_of_digits bin/maximum_num_of_tasks bin/push_dominoes bin/minimum_domino_rot bin/domino_and_tromino bin/domino_and_equivalent bin/build_arr_from_perm bin/find_min_time_to_reach_room bin/find_min_time_to_each_room2 bin/house_robber_2_dp bin/count_numb_balnc_perm bin/min_equal_sum_of_two_arr bin/part_equal_subset bin/three_consecutive_odds bin/two_sum bin/design_search_data_struct bin/prefix_impl bin/finding_3digit_even_num bin/total_char_after_trans1 bin/total_char_after_trans2 bin/longest_uneq_adjanc_group1
 
 # =============================================================================
 # Built-in targets
