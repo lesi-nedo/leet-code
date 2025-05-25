@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/finding_3digit_even_num.dir/link.d "CMakeFiles/finding_3digit_even_num.dir/daily_q/2094._Finding_3-Digit_Even_Numbers.cpp.o" -o bin/finding_3digit_even_num

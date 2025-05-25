@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/build_arr_from_perm.dir/link.d CMakeFiles/build_arr_from_perm.dir/daily_q/1920._Build_Array_from_Permutation.cpp.o CMakeFiles/build_arr_from_perm.dir/daily_q/2131._Longest_Palindrome_by_Concatenating_Two_Letter_Words.cpp.o -o bin/build_arr_from_perm

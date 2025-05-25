@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/maximum_num_of_tasks.dir/link.d CMakeFiles/maximum_num_of_tasks.dir/daily_q/2071._Maximum_Number_of_Tasks_You_Can_Assign.cpp.o -o bin/maximum_num_of_tasks

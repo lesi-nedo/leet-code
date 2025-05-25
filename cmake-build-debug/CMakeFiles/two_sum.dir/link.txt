@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/two_sum.dir/link.d CMakeFiles/two_sum.dir/top_interview_150/1._Two_Sum.cpp.o -o bin/two_sum
