@@ -29,5 +29,10 @@
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/total_char_after_trans2.dir
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/longest_uneq_adjanc_group1.dir
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/long_palindr_by_concat.dir
+/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/larg_color_val_in_graph.dir
+/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/div_and_non_div_sums.dir
+/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/find_k_closest_els.dir
+/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/long_str_no_reap_char.dir
+/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/max_num_nods_conn1.dir
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/rebuild_cache.dir

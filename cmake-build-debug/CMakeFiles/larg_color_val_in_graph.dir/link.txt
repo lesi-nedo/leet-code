@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/larg_color_val_in_graph.dir/link.d CMakeFiles/larg_color_val_in_graph.dir/daily_q/1857._Largest_Color_Value_in_a_Directed_Graph.cpp.o -o bin/larg_color_val_in_graph
