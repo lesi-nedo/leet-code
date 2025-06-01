@@ -1,6 +1,7 @@
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/merge_arr.dir
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/rem_el.dir
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/candy.dir
+/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/med_two_sort_arr.dir
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/count_say.dir
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/count_subarr.dir
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/count_subarr_with_cond.dir
@@ -14,6 +15,7 @@
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/domino_and_tromino.dir
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/domino_and_equivalent.dir
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/build_arr_from_perm.dir
+/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/snakes_and_ladders.dir
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/find_min_time_to_reach_room.dir
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/find_min_time_to_each_room2.dir
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/house_robber_2_dp.dir
@@ -34,5 +36,8 @@
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/find_k_closest_els.dir
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/long_str_no_reap_char.dir
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/max_num_nods_conn1.dir
+/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/max_num_nods_conn2.dir
+/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/find_clos_node_to_give.dir
+/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/distr_cand_among_chil.dir
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/rebuild_cache.dir

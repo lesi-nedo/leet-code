@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/distr_cand_among_chil.dir/link.d CMakeFiles/distr_cand_among_chil.dir/daily_q/2929._Distribute_Candies_Among_Children_II.cpp.o -o bin/distr_cand_among_chil

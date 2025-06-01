@@ -156,6 +156,19 @@ candy/fast:
 .PHONY : candy/fast
 
 #=============================================================================
+# Target rules for targets named med_two_sort_arr
+
+# Build rule for target.
+med_two_sort_arr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 med_two_sort_arr
+.PHONY : med_two_sort_arr
+
+# fast build rule for target.
+med_two_sort_arr/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/med_two_sort_arr.dir/build.make CMakeFiles/med_two_sort_arr.dir/build
+.PHONY : med_two_sort_arr/fast
+
+#=============================================================================
 # Target rules for targets named count_say
 
 # Build rule for target.
@@ -323,6 +336,19 @@ build_arr_from_perm: cmake_check_build_system
 build_arr_from_perm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_arr_from_perm.dir/build.make CMakeFiles/build_arr_from_perm.dir/build
 .PHONY : build_arr_from_perm/fast
+
+#=============================================================================
+# Target rules for targets named snakes_and_ladders
+
+# Build rule for target.
+snakes_and_ladders: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 snakes_and_ladders
+.PHONY : snakes_and_ladders
+
+# fast build rule for target.
+snakes_and_ladders/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snakes_and_ladders.dir/build.make CMakeFiles/snakes_and_ladders.dir/build
+.PHONY : snakes_and_ladders/fast
 
 #=============================================================================
 # Target rules for targets named find_min_time_to_reach_room
@@ -584,6 +610,45 @@ max_num_nods_conn1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/max_num_nods_conn1.dir/build.make CMakeFiles/max_num_nods_conn1.dir/build
 .PHONY : max_num_nods_conn1/fast
 
+#=============================================================================
+# Target rules for targets named max_num_nods_conn2
+
+# Build rule for target.
+max_num_nods_conn2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 max_num_nods_conn2
+.PHONY : max_num_nods_conn2
+
+# fast build rule for target.
+max_num_nods_conn2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/max_num_nods_conn2.dir/build.make CMakeFiles/max_num_nods_conn2.dir/build
+.PHONY : max_num_nods_conn2/fast
+
+#=============================================================================
+# Target rules for targets named find_clos_node_to_give
+
+# Build rule for target.
+find_clos_node_to_give: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 find_clos_node_to_give
+.PHONY : find_clos_node_to_give
+
+# fast build rule for target.
+find_clos_node_to_give/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_clos_node_to_give.dir/build.make CMakeFiles/find_clos_node_to_give.dir/build
+.PHONY : find_clos_node_to_give/fast
+
+#=============================================================================
+# Target rules for targets named distr_cand_among_chil
+
+# Build rule for target.
+distr_cand_among_chil: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 distr_cand_among_chil
+.PHONY : distr_cand_among_chil
+
+# fast build rule for target.
+distr_cand_among_chil/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/distr_cand_among_chil.dir/build.make CMakeFiles/distr_cand_among_chil.dir/build
+.PHONY : distr_cand_among_chil/fast
+
 daily_q/1007._Minimum_Domino_Rotations_For_Equal_Row.o: daily_q/1007._Minimum_Domino_Rotations_For_Equal_Row.cpp.o
 .PHONY : daily_q/1007._Minimum_Domino_Rotations_For_Equal_Row.o
 
@@ -685,7 +750,6 @@ daily_q/1857._Largest_Color_Value_in_a_Directed_Graph.o: daily_q/1857._Largest_C
 
 # target to build an object file
 daily_q/1857._Largest_Color_Value_in_a_Directed_Graph.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_arr_from_perm.dir/build.make CMakeFiles/build_arr_from_perm.dir/daily_q/1857._Largest_Color_Value_in_a_Directed_Graph.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/larg_color_val_in_graph.dir/build.make CMakeFiles/larg_color_val_in_graph.dir/daily_q/1857._Largest_Color_Value_in_a_Directed_Graph.cpp.o
 .PHONY : daily_q/1857._Largest_Color_Value_in_a_Directed_Graph.cpp.o
 
@@ -694,7 +758,6 @@ daily_q/1857._Largest_Color_Value_in_a_Directed_Graph.i: daily_q/1857._Largest_C
 
 # target to preprocess a source file
 daily_q/1857._Largest_Color_Value_in_a_Directed_Graph.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_arr_from_perm.dir/build.make CMakeFiles/build_arr_from_perm.dir/daily_q/1857._Largest_Color_Value_in_a_Directed_Graph.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/larg_color_val_in_graph.dir/build.make CMakeFiles/larg_color_val_in_graph.dir/daily_q/1857._Largest_Color_Value_in_a_Directed_Graph.cpp.i
 .PHONY : daily_q/1857._Largest_Color_Value_in_a_Directed_Graph.cpp.i
 
@@ -703,7 +766,6 @@ daily_q/1857._Largest_Color_Value_in_a_Directed_Graph.s: daily_q/1857._Largest_C
 
 # target to generate assembly for a file
 daily_q/1857._Largest_Color_Value_in_a_Directed_Graph.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_arr_from_perm.dir/build.make CMakeFiles/build_arr_from_perm.dir/daily_q/1857._Largest_Color_Value_in_a_Directed_Graph.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/larg_color_val_in_graph.dir/build.make CMakeFiles/larg_color_val_in_graph.dir/daily_q/1857._Largest_Color_Value_in_a_Directed_Graph.cpp.s
 .PHONY : daily_q/1857._Largest_Color_Value_in_a_Directed_Graph.cpp.s
 
@@ -784,7 +846,6 @@ daily_q/2131._Longest_Palindrome_by_Concatenating_Two_Letter_Words.o: daily_q/21
 
 # target to build an object file
 daily_q/2131._Longest_Palindrome_by_Concatenating_Two_Letter_Words.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_arr_from_perm.dir/build.make CMakeFiles/build_arr_from_perm.dir/daily_q/2131._Longest_Palindrome_by_Concatenating_Two_Letter_Words.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/long_palindr_by_concat.dir/build.make CMakeFiles/long_palindr_by_concat.dir/daily_q/2131._Longest_Palindrome_by_Concatenating_Two_Letter_Words.cpp.o
 .PHONY : daily_q/2131._Longest_Palindrome_by_Concatenating_Two_Letter_Words.cpp.o
 
@@ -793,7 +854,6 @@ daily_q/2131._Longest_Palindrome_by_Concatenating_Two_Letter_Words.i: daily_q/21
 
 # target to preprocess a source file
 daily_q/2131._Longest_Palindrome_by_Concatenating_Two_Letter_Words.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_arr_from_perm.dir/build.make CMakeFiles/build_arr_from_perm.dir/daily_q/2131._Longest_Palindrome_by_Concatenating_Two_Letter_Words.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/long_palindr_by_concat.dir/build.make CMakeFiles/long_palindr_by_concat.dir/daily_q/2131._Longest_Palindrome_by_Concatenating_Two_Letter_Words.cpp.i
 .PHONY : daily_q/2131._Longest_Palindrome_by_Concatenating_Two_Letter_Words.cpp.i
 
@@ -802,7 +862,6 @@ daily_q/2131._Longest_Palindrome_by_Concatenating_Two_Letter_Words.s: daily_q/21
 
 # target to generate assembly for a file
 daily_q/2131._Longest_Palindrome_by_Concatenating_Two_Letter_Words.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_arr_from_perm.dir/build.make CMakeFiles/build_arr_from_perm.dir/daily_q/2131._Longest_Palindrome_by_Concatenating_Two_Letter_Words.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/long_palindr_by_concat.dir/build.make CMakeFiles/long_palindr_by_concat.dir/daily_q/2131._Longest_Palindrome_by_Concatenating_Two_Letter_Words.cpp.s
 .PHONY : daily_q/2131._Longest_Palindrome_by_Concatenating_Two_Letter_Words.cpp.s
 
@@ -830,12 +889,35 @@ daily_q/2302._Count_Subarrays_With_Score_Less_Than_K.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_subarrays_with_score_less_than_k.dir/build.make CMakeFiles/count_subarrays_with_score_less_than_k.dir/daily_q/2302._Count_Subarrays_With_Score_Less_Than_K.cpp.s
 .PHONY : daily_q/2302._Count_Subarrays_With_Score_Less_Than_K.cpp.s
 
+daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.o: daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.cpp.o
+.PHONY : daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.o
+
+# target to build an object file
+daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_clos_node_to_give.dir/build.make CMakeFiles/find_clos_node_to_give.dir/daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.cpp.o
+.PHONY : daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.cpp.o
+
+daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.i: daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.cpp.i
+.PHONY : daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.i
+
+# target to preprocess a source file
+daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_clos_node_to_give.dir/build.make CMakeFiles/find_clos_node_to_give.dir/daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.cpp.i
+.PHONY : daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.cpp.i
+
+daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.s: daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.cpp.s
+.PHONY : daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.s
+
+# target to generate assembly for a file
+daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_clos_node_to_give.dir/build.make CMakeFiles/find_clos_node_to_give.dir/daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.cpp.s
+.PHONY : daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.cpp.s
+
 daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.o: daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.cpp.o
 .PHONY : daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.o
 
 # target to build an object file
 daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_arr_from_perm.dir/build.make CMakeFiles/build_arr_from_perm.dir/daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/div_and_non_div_sums.dir/build.make CMakeFiles/div_and_non_div_sums.dir/daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.cpp.o
 .PHONY : daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.cpp.o
 
@@ -844,7 +926,6 @@ daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.i: daily_q/2894._Divis
 
 # target to preprocess a source file
 daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_arr_from_perm.dir/build.make CMakeFiles/build_arr_from_perm.dir/daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/div_and_non_div_sums.dir/build.make CMakeFiles/div_and_non_div_sums.dir/daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.cpp.i
 .PHONY : daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.cpp.i
 
@@ -853,7 +934,6 @@ daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.s: daily_q/2894._Divis
 
 # target to generate assembly for a file
 daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_arr_from_perm.dir/build.make CMakeFiles/build_arr_from_perm.dir/daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/div_and_non_div_sums.dir/build.make CMakeFiles/div_and_non_div_sums.dir/daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.cpp.s
 .PHONY : daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.cpp.s
 
@@ -904,6 +984,30 @@ daily_q/2918._Minimum_Equal_Sum_of_Two_Arrays_After_Replacing_Zeros.s: daily_q/2
 daily_q/2918._Minimum_Equal_Sum_of_Two_Arrays_After_Replacing_Zeros.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/min_equal_sum_of_two_arr.dir/build.make CMakeFiles/min_equal_sum_of_two_arr.dir/daily_q/2918._Minimum_Equal_Sum_of_Two_Arrays_After_Replacing_Zeros.cpp.s
 .PHONY : daily_q/2918._Minimum_Equal_Sum_of_Two_Arrays_After_Replacing_Zeros.cpp.s
+
+daily_q/2929._Distribute_Candies_Among_Children_II.o: daily_q/2929._Distribute_Candies_Among_Children_II.cpp.o
+.PHONY : daily_q/2929._Distribute_Candies_Among_Children_II.o
+
+# target to build an object file
+daily_q/2929._Distribute_Candies_Among_Children_II.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/distr_cand_among_chil.dir/build.make CMakeFiles/distr_cand_among_chil.dir/daily_q/2929._Distribute_Candies_Among_Children_II.cpp.o
+.PHONY : daily_q/2929._Distribute_Candies_Among_Children_II.cpp.o
+
+daily_q/2929._Distribute_Candies_Among_Children_II.i: daily_q/2929._Distribute_Candies_Among_Children_II.cpp.i
+.PHONY : daily_q/2929._Distribute_Candies_Among_Children_II.i
+
+# target to preprocess a source file
+daily_q/2929._Distribute_Candies_Among_Children_II.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/distr_cand_among_chil.dir/build.make CMakeFiles/distr_cand_among_chil.dir/daily_q/2929._Distribute_Candies_Among_Children_II.cpp.i
+.PHONY : daily_q/2929._Distribute_Candies_Among_Children_II.cpp.i
+
+daily_q/2929._Distribute_Candies_Among_Children_II.s: daily_q/2929._Distribute_Candies_Among_Children_II.cpp.s
+.PHONY : daily_q/2929._Distribute_Candies_Among_Children_II.s
+
+# target to generate assembly for a file
+daily_q/2929._Distribute_Candies_Among_Children_II.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/distr_cand_among_chil.dir/build.make CMakeFiles/distr_cand_among_chil.dir/daily_q/2929._Distribute_Candies_Among_Children_II.cpp.s
+.PHONY : daily_q/2929._Distribute_Candies_Among_Children_II.cpp.s
 
 daily_q/2962._Count_Subarrays_Where_Max_Element_Appears_at_Least_K_Times.o: daily_q/2962._Count_Subarrays_Where_Max_Element_Appears_at_Least_K_Times.cpp.o
 .PHONY : daily_q/2962._Count_Subarrays_Where_Max_Element_Appears_at_Least_K_Times.o
@@ -1054,7 +1158,6 @@ daily_q/3372._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_I.o: da
 
 # target to build an object file
 daily_q/3372._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_I.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_arr_from_perm.dir/build.make CMakeFiles/build_arr_from_perm.dir/daily_q/3372._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_I.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/max_num_nods_conn1.dir/build.make CMakeFiles/max_num_nods_conn1.dir/daily_q/3372._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_I.cpp.o
 .PHONY : daily_q/3372._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_I.cpp.o
 
@@ -1063,7 +1166,6 @@ daily_q/3372._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_I.i: da
 
 # target to preprocess a source file
 daily_q/3372._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_I.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_arr_from_perm.dir/build.make CMakeFiles/build_arr_from_perm.dir/daily_q/3372._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_I.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/max_num_nods_conn1.dir/build.make CMakeFiles/max_num_nods_conn1.dir/daily_q/3372._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_I.cpp.i
 .PHONY : daily_q/3372._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_I.cpp.i
 
@@ -1072,7 +1174,6 @@ daily_q/3372._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_I.s: da
 
 # target to generate assembly for a file
 daily_q/3372._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_I.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_arr_from_perm.dir/build.make CMakeFiles/build_arr_from_perm.dir/daily_q/3372._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_I.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/max_num_nods_conn1.dir/build.make CMakeFiles/max_num_nods_conn1.dir/daily_q/3372._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_I.cpp.s
 .PHONY : daily_q/3372._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_I.cpp.s
 
@@ -1081,7 +1182,7 @@ daily_q/3373._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_II.o: d
 
 # target to build an object file
 daily_q/3373._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_II.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_arr_from_perm.dir/build.make CMakeFiles/build_arr_from_perm.dir/daily_q/3373._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_II.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/max_num_nods_conn2.dir/build.make CMakeFiles/max_num_nods_conn2.dir/daily_q/3373._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_II.cpp.o
 .PHONY : daily_q/3373._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_II.cpp.o
 
 daily_q/3373._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_II.i: daily_q/3373._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_II.cpp.i
@@ -1089,7 +1190,7 @@ daily_q/3373._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_II.i: d
 
 # target to preprocess a source file
 daily_q/3373._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_II.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_arr_from_perm.dir/build.make CMakeFiles/build_arr_from_perm.dir/daily_q/3373._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_II.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/max_num_nods_conn2.dir/build.make CMakeFiles/max_num_nods_conn2.dir/daily_q/3373._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_II.cpp.i
 .PHONY : daily_q/3373._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_II.cpp.i
 
 daily_q/3373._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_II.s: daily_q/3373._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_II.cpp.s
@@ -1097,7 +1198,7 @@ daily_q/3373._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_II.s: d
 
 # target to generate assembly for a file
 daily_q/3373._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_II.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_arr_from_perm.dir/build.make CMakeFiles/build_arr_from_perm.dir/daily_q/3373._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_II.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/max_num_nods_conn2.dir/build.make CMakeFiles/max_num_nods_conn2.dir/daily_q/3373._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_II.cpp.s
 .PHONY : daily_q/3373._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_II.cpp.s
 
 daily_q/790._Domino_and_Tromino_Tiling.o: daily_q/790._Domino_and_Tromino_Tiling.cpp.o
@@ -1147,6 +1248,30 @@ daily_q/838._Push_Dominoes.s: daily_q/838._Push_Dominoes.cpp.s
 daily_q/838._Push_Dominoes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_dominoes.dir/build.make CMakeFiles/push_dominoes.dir/daily_q/838._Push_Dominoes.cpp.s
 .PHONY : daily_q/838._Push_Dominoes.cpp.s
+
+daily_q/909._Snakes_and_Ladders.o: daily_q/909._Snakes_and_Ladders.cpp.o
+.PHONY : daily_q/909._Snakes_and_Ladders.o
+
+# target to build an object file
+daily_q/909._Snakes_and_Ladders.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snakes_and_ladders.dir/build.make CMakeFiles/snakes_and_ladders.dir/daily_q/909._Snakes_and_Ladders.cpp.o
+.PHONY : daily_q/909._Snakes_and_Ladders.cpp.o
+
+daily_q/909._Snakes_and_Ladders.i: daily_q/909._Snakes_and_Ladders.cpp.i
+.PHONY : daily_q/909._Snakes_and_Ladders.i
+
+# target to preprocess a source file
+daily_q/909._Snakes_and_Ladders.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snakes_and_ladders.dir/build.make CMakeFiles/snakes_and_ladders.dir/daily_q/909._Snakes_and_Ladders.cpp.i
+.PHONY : daily_q/909._Snakes_and_Ladders.cpp.i
+
+daily_q/909._Snakes_and_Ladders.s: daily_q/909._Snakes_and_Ladders.cpp.s
+.PHONY : daily_q/909._Snakes_and_Ladders.s
+
+# target to generate assembly for a file
+daily_q/909._Snakes_and_Ladders.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snakes_and_ladders.dir/build.make CMakeFiles/snakes_and_ladders.dir/daily_q/909._Snakes_and_Ladders.cpp.s
+.PHONY : daily_q/909._Snakes_and_Ladders.cpp.s
 
 daily_q/count_subarr_with_cond.o: daily_q/count_subarr_with_cond.cpp.o
 .PHONY : daily_q/count_subarr_with_cond.o
@@ -1321,7 +1446,6 @@ top_interview_150/3._Longest_Substring_Without_Repeating_Characters.o: top_inter
 
 # target to build an object file
 top_interview_150/3._Longest_Substring_Without_Repeating_Characters.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_arr_from_perm.dir/build.make CMakeFiles/build_arr_from_perm.dir/top_interview_150/3._Longest_Substring_Without_Repeating_Characters.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/long_str_no_reap_char.dir/build.make CMakeFiles/long_str_no_reap_char.dir/top_interview_150/3._Longest_Substring_Without_Repeating_Characters.cpp.o
 .PHONY : top_interview_150/3._Longest_Substring_Without_Repeating_Characters.cpp.o
 
@@ -1330,7 +1454,6 @@ top_interview_150/3._Longest_Substring_Without_Repeating_Characters.i: top_inter
 
 # target to preprocess a source file
 top_interview_150/3._Longest_Substring_Without_Repeating_Characters.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_arr_from_perm.dir/build.make CMakeFiles/build_arr_from_perm.dir/top_interview_150/3._Longest_Substring_Without_Repeating_Characters.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/long_str_no_reap_char.dir/build.make CMakeFiles/long_str_no_reap_char.dir/top_interview_150/3._Longest_Substring_Without_Repeating_Characters.cpp.i
 .PHONY : top_interview_150/3._Longest_Substring_Without_Repeating_Characters.cpp.i
 
@@ -1339,9 +1462,32 @@ top_interview_150/3._Longest_Substring_Without_Repeating_Characters.s: top_inter
 
 # target to generate assembly for a file
 top_interview_150/3._Longest_Substring_Without_Repeating_Characters.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_arr_from_perm.dir/build.make CMakeFiles/build_arr_from_perm.dir/top_interview_150/3._Longest_Substring_Without_Repeating_Characters.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/long_str_no_reap_char.dir/build.make CMakeFiles/long_str_no_reap_char.dir/top_interview_150/3._Longest_Substring_Without_Repeating_Characters.cpp.s
 .PHONY : top_interview_150/3._Longest_Substring_Without_Repeating_Characters.cpp.s
+
+top_interview_150/4._Median_of_Two_Sorted_Arrays.o: top_interview_150/4._Median_of_Two_Sorted_Arrays.cpp.o
+.PHONY : top_interview_150/4._Median_of_Two_Sorted_Arrays.o
+
+# target to build an object file
+top_interview_150/4._Median_of_Two_Sorted_Arrays.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/med_two_sort_arr.dir/build.make CMakeFiles/med_two_sort_arr.dir/top_interview_150/4._Median_of_Two_Sorted_Arrays.cpp.o
+.PHONY : top_interview_150/4._Median_of_Two_Sorted_Arrays.cpp.o
+
+top_interview_150/4._Median_of_Two_Sorted_Arrays.i: top_interview_150/4._Median_of_Two_Sorted_Arrays.cpp.i
+.PHONY : top_interview_150/4._Median_of_Two_Sorted_Arrays.i
+
+# target to preprocess a source file
+top_interview_150/4._Median_of_Two_Sorted_Arrays.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/med_two_sort_arr.dir/build.make CMakeFiles/med_two_sort_arr.dir/top_interview_150/4._Median_of_Two_Sorted_Arrays.cpp.i
+.PHONY : top_interview_150/4._Median_of_Two_Sorted_Arrays.cpp.i
+
+top_interview_150/4._Median_of_Two_Sorted_Arrays.s: top_interview_150/4._Median_of_Two_Sorted_Arrays.cpp.s
+.PHONY : top_interview_150/4._Median_of_Two_Sorted_Arrays.s
+
+# target to generate assembly for a file
+top_interview_150/4._Median_of_Two_Sorted_Arrays.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/med_two_sort_arr.dir/build.make CMakeFiles/med_two_sort_arr.dir/top_interview_150/4._Median_of_Two_Sorted_Arrays.cpp.s
+.PHONY : top_interview_150/4._Median_of_Two_Sorted_Arrays.cpp.s
 
 top_interview_150/416._Partition_Equal_Subset_Sum.o: top_interview_150/416._Partition_Equal_Subset_Sum.cpp.o
 .PHONY : top_interview_150/416._Partition_Equal_Subset_Sum.o
@@ -1372,7 +1518,6 @@ top_interview_150/658._Find_K_Closest_Elements.o: top_interview_150/658._Find_K_
 
 # target to build an object file
 top_interview_150/658._Find_K_Closest_Elements.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_arr_from_perm.dir/build.make CMakeFiles/build_arr_from_perm.dir/top_interview_150/658._Find_K_Closest_Elements.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_k_closest_els.dir/build.make CMakeFiles/find_k_closest_els.dir/top_interview_150/658._Find_K_Closest_Elements.cpp.o
 .PHONY : top_interview_150/658._Find_K_Closest_Elements.cpp.o
 
@@ -1381,7 +1526,6 @@ top_interview_150/658._Find_K_Closest_Elements.i: top_interview_150/658._Find_K_
 
 # target to preprocess a source file
 top_interview_150/658._Find_K_Closest_Elements.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_arr_from_perm.dir/build.make CMakeFiles/build_arr_from_perm.dir/top_interview_150/658._Find_K_Closest_Elements.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_k_closest_els.dir/build.make CMakeFiles/find_k_closest_els.dir/top_interview_150/658._Find_K_Closest_Elements.cpp.i
 .PHONY : top_interview_150/658._Find_K_Closest_Elements.cpp.i
 
@@ -1390,7 +1534,6 @@ top_interview_150/658._Find_K_Closest_Elements.s: top_interview_150/658._Find_K_
 
 # target to generate assembly for a file
 top_interview_150/658._Find_K_Closest_Elements.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_arr_from_perm.dir/build.make CMakeFiles/build_arr_from_perm.dir/top_interview_150/658._Find_K_Closest_Elements.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_k_closest_els.dir/build.make CMakeFiles/find_k_closest_els.dir/top_interview_150/658._Find_K_Closest_Elements.cpp.s
 .PHONY : top_interview_150/658._Find_K_Closest_Elements.cpp.s
 
@@ -1507,10 +1650,12 @@ help:
 	@echo "... count_subarrays_where_max_k"
 	@echo "... count_subarrays_with_score_less_than_k"
 	@echo "... design_search_data_struct"
+	@echo "... distr_cand_among_chil"
 	@echo "... div_and_non_div_sums"
 	@echo "... domino_and_equivalent"
 	@echo "... domino_and_tromino"
 	@echo "... even_number_of_digits"
+	@echo "... find_clos_node_to_give"
 	@echo "... find_k_closest_els"
 	@echo "... find_min_time_to_each_room2"
 	@echo "... find_min_time_to_reach_room"
@@ -1522,7 +1667,9 @@ help:
 	@echo "... long_str_no_reap_char"
 	@echo "... longest_uneq_adjanc_group1"
 	@echo "... max_num_nods_conn1"
+	@echo "... max_num_nods_conn2"
 	@echo "... maximum_num_of_tasks"
+	@echo "... med_two_sort_arr"
 	@echo "... merge_arr"
 	@echo "... min_equal_sum_of_two_arr"
 	@echo "... minimum_domino_rot"
@@ -1530,6 +1677,7 @@ help:
 	@echo "... prefix_impl"
 	@echo "... push_dominoes"
 	@echo "... rem_el"
+	@echo "... snakes_and_ladders"
 	@echo "... three_consecutive_odds"
 	@echo "... total_char_after_trans1"
 	@echo "... total_char_after_trans2"
@@ -1564,6 +1712,9 @@ help:
 	@echo "... daily_q/2302._Count_Subarrays_With_Score_Less_Than_K.o"
 	@echo "... daily_q/2302._Count_Subarrays_With_Score_Less_Than_K.i"
 	@echo "... daily_q/2302._Count_Subarrays_With_Score_Less_Than_K.s"
+	@echo "... daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.o"
+	@echo "... daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.i"
+	@echo "... daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.s"
 	@echo "... daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.o"
 	@echo "... daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.i"
 	@echo "... daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.s"
@@ -1573,6 +1724,9 @@ help:
 	@echo "... daily_q/2918._Minimum_Equal_Sum_of_Two_Arrays_After_Replacing_Zeros.o"
 	@echo "... daily_q/2918._Minimum_Equal_Sum_of_Two_Arrays_After_Replacing_Zeros.i"
 	@echo "... daily_q/2918._Minimum_Equal_Sum_of_Two_Arrays_After_Replacing_Zeros.s"
+	@echo "... daily_q/2929._Distribute_Candies_Among_Children_II.o"
+	@echo "... daily_q/2929._Distribute_Candies_Among_Children_II.i"
+	@echo "... daily_q/2929._Distribute_Candies_Among_Children_II.s"
 	@echo "... daily_q/2962._Count_Subarrays_Where_Max_Element_Appears_at_Least_K_Times.o"
 	@echo "... daily_q/2962._Count_Subarrays_Where_Max_Element_Appears_at_Least_K_Times.i"
 	@echo "... daily_q/2962._Count_Subarrays_Where_Max_Element_Appears_at_Least_K_Times.s"
@@ -1603,6 +1757,9 @@ help:
 	@echo "... daily_q/838._Push_Dominoes.o"
 	@echo "... daily_q/838._Push_Dominoes.i"
 	@echo "... daily_q/838._Push_Dominoes.s"
+	@echo "... daily_q/909._Snakes_and_Ladders.o"
+	@echo "... daily_q/909._Snakes_and_Ladders.i"
+	@echo "... daily_q/909._Snakes_and_Ladders.s"
 	@echo "... daily_q/count_subarr_with_cond.o"
 	@echo "... daily_q/count_subarr_with_cond.i"
 	@echo "... daily_q/count_subarr_with_cond.s"
@@ -1627,6 +1784,9 @@ help:
 	@echo "... top_interview_150/3._Longest_Substring_Without_Repeating_Characters.o"
 	@echo "... top_interview_150/3._Longest_Substring_Without_Repeating_Characters.i"
 	@echo "... top_interview_150/3._Longest_Substring_Without_Repeating_Characters.s"
+	@echo "... top_interview_150/4._Median_of_Two_Sorted_Arrays.o"
+	@echo "... top_interview_150/4._Median_of_Two_Sorted_Arrays.i"
+	@echo "... top_interview_150/4._Median_of_Two_Sorted_Arrays.s"
 	@echo "... top_interview_150/416._Partition_Equal_Subset_Sum.o"
 	@echo "... top_interview_150/416._Partition_Equal_Subset_Sum.i"
 	@echo "... top_interview_150/416._Partition_Equal_Subset_Sum.s"

@@ -57,6 +57,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/merge_arr.dir/DependInfo.cmake"
   "CMakeFiles/rem_el.dir/DependInfo.cmake"
   "CMakeFiles/candy.dir/DependInfo.cmake"
+  "CMakeFiles/med_two_sort_arr.dir/DependInfo.cmake"
   "CMakeFiles/count_say.dir/DependInfo.cmake"
   "CMakeFiles/count_subarr.dir/DependInfo.cmake"
   "CMakeFiles/count_subarr_with_cond.dir/DependInfo.cmake"
@@ -70,6 +71,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/domino_and_tromino.dir/DependInfo.cmake"
   "CMakeFiles/domino_and_equivalent.dir/DependInfo.cmake"
   "CMakeFiles/build_arr_from_perm.dir/DependInfo.cmake"
+  "CMakeFiles/snakes_and_ladders.dir/DependInfo.cmake"
   "CMakeFiles/find_min_time_to_reach_room.dir/DependInfo.cmake"
   "CMakeFiles/find_min_time_to_each_room2.dir/DependInfo.cmake"
   "CMakeFiles/house_robber_2_dp.dir/DependInfo.cmake"
@@ -90,4 +92,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/find_k_closest_els.dir/DependInfo.cmake"
   "CMakeFiles/long_str_no_reap_char.dir/DependInfo.cmake"
   "CMakeFiles/max_num_nods_conn1.dir/DependInfo.cmake"
+  "CMakeFiles/max_num_nods_conn2.dir/DependInfo.cmake"
+  "CMakeFiles/find_clos_node_to_give.dir/DependInfo.cmake"
+  "CMakeFiles/distr_cand_among_chil.dir/DependInfo.cmake"
   )
