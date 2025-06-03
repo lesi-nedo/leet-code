@@ -63,6 +63,8 @@ CMAKE_BINARY_DIR = /home/lesi-nedo/Desktop/leet-code/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/max_candies_can_get.dir/all
+all: CMakeFiles/candy_q.dir/all
 all: CMakeFiles/merge_arr.dir/all
 all: CMakeFiles/rem_el.dir/all
 all: CMakeFiles/candy.dir/all
@@ -107,6 +109,8 @@ all: CMakeFiles/distr_cand_among_chil.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
+codegen: CMakeFiles/max_candies_can_get.dir/codegen
+codegen: CMakeFiles/candy_q.dir/codegen
 codegen: CMakeFiles/merge_arr.dir/codegen
 codegen: CMakeFiles/rem_el.dir/codegen
 codegen: CMakeFiles/candy.dir/codegen
@@ -155,6 +159,8 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/max_candies_can_get.dir/clean
+clean: CMakeFiles/candy_q.dir/clean
 clean: CMakeFiles/merge_arr.dir/clean
 clean: CMakeFiles/rem_el.dir/clean
 clean: CMakeFiles/candy.dir/clean
@@ -199,13 +205,77 @@ clean: CMakeFiles/distr_cand_among_chil.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/max_candies_can_get.dir
+
+# All Build rule for target.
+CMakeFiles/max_candies_can_get.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/max_candies_can_get.dir/build.make CMakeFiles/max_candies_can_get.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/max_candies_can_get.dir/build.make CMakeFiles/max_candies_can_get.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target max_candies_can_get"
+.PHONY : CMakeFiles/max_candies_can_get.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/max_candies_can_get.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/max_candies_can_get.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/max_candies_can_get.dir/rule
+
+# Convenience name for target.
+max_candies_can_get: CMakeFiles/max_candies_can_get.dir/rule
+.PHONY : max_candies_can_get
+
+# codegen rule for target.
+CMakeFiles/max_candies_can_get.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/max_candies_can_get.dir/build.make CMakeFiles/max_candies_can_get.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=53,54 "Finished codegen for target max_candies_can_get"
+.PHONY : CMakeFiles/max_candies_can_get.dir/codegen
+
+# clean rule for target.
+CMakeFiles/max_candies_can_get.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/max_candies_can_get.dir/build.make CMakeFiles/max_candies_can_get.dir/clean
+.PHONY : CMakeFiles/max_candies_can_get.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/candy_q.dir
+
+# All Build rule for target.
+CMakeFiles/candy_q.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/candy_q.dir/build.make CMakeFiles/candy_q.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/candy_q.dir/build.make CMakeFiles/candy_q.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target candy_q"
+.PHONY : CMakeFiles/candy_q.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/candy_q.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/candy_q.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/candy_q.dir/rule
+
+# Convenience name for target.
+candy_q: CMakeFiles/candy_q.dir/rule
+.PHONY : candy_q
+
+# codegen rule for target.
+CMakeFiles/candy_q.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/candy_q.dir/build.make CMakeFiles/candy_q.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=5,6 "Finished codegen for target candy_q"
+.PHONY : CMakeFiles/candy_q.dir/codegen
+
+# clean rule for target.
+CMakeFiles/candy_q.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/candy_q.dir/build.make CMakeFiles/candy_q.dir/clean
+.PHONY : CMakeFiles/candy_q.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/merge_arr.dir
 
 # All Build rule for target.
 CMakeFiles/merge_arr.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/merge_arr.dir/build.make CMakeFiles/merge_arr.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/merge_arr.dir/build.make CMakeFiles/merge_arr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target merge_arr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target merge_arr"
 .PHONY : CMakeFiles/merge_arr.dir/all
 
 # Build rule for subdir invocation for target.
@@ -222,7 +292,7 @@ merge_arr: CMakeFiles/merge_arr.dir/rule
 # codegen rule for target.
 CMakeFiles/merge_arr.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/merge_arr.dir/build.make CMakeFiles/merge_arr.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=59,60 "Finished codegen for target merge_arr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=63,64 "Finished codegen for target merge_arr"
 .PHONY : CMakeFiles/merge_arr.dir/codegen
 
 # clean rule for target.
@@ -237,7 +307,7 @@ CMakeFiles/merge_arr.dir/clean:
 CMakeFiles/rem_el.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rem_el.dir/build.make CMakeFiles/rem_el.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rem_el.dir/build.make CMakeFiles/rem_el.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=71,72 "Built target rem_el"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=75,76 "Built target rem_el"
 .PHONY : CMakeFiles/rem_el.dir/all
 
 # Build rule for subdir invocation for target.
@@ -254,7 +324,7 @@ rem_el: CMakeFiles/rem_el.dir/rule
 # codegen rule for target.
 CMakeFiles/rem_el.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rem_el.dir/build.make CMakeFiles/rem_el.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=71,72 "Finished codegen for target rem_el"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=75,76 "Finished codegen for target rem_el"
 .PHONY : CMakeFiles/rem_el.dir/codegen
 
 # clean rule for target.
@@ -301,7 +371,7 @@ CMakeFiles/candy.dir/clean:
 CMakeFiles/med_two_sort_arr.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/med_two_sort_arr.dir/build.make CMakeFiles/med_two_sort_arr.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/med_two_sort_arr.dir/build.make CMakeFiles/med_two_sort_arr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target med_two_sort_arr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target med_two_sort_arr"
 .PHONY : CMakeFiles/med_two_sort_arr.dir/all
 
 # Build rule for subdir invocation for target.
@@ -318,7 +388,7 @@ med_two_sort_arr: CMakeFiles/med_two_sort_arr.dir/rule
 # codegen rule for target.
 CMakeFiles/med_two_sort_arr.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/med_two_sort_arr.dir/build.make CMakeFiles/med_two_sort_arr.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=57,58 "Finished codegen for target med_two_sort_arr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=61,62 "Finished codegen for target med_two_sort_arr"
 .PHONY : CMakeFiles/med_two_sort_arr.dir/codegen
 
 # clean rule for target.
@@ -333,7 +403,7 @@ CMakeFiles/med_two_sort_arr.dir/clean:
 CMakeFiles/count_say.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_say.dir/build.make CMakeFiles/count_say.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_say.dir/build.make CMakeFiles/count_say.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target count_say"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target count_say"
 .PHONY : CMakeFiles/count_say.dir/all
 
 # Build rule for subdir invocation for target.
@@ -350,7 +420,7 @@ count_say: CMakeFiles/count_say.dir/rule
 # codegen rule for target.
 CMakeFiles/count_say.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_say.dir/build.make CMakeFiles/count_say.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=7,8 "Finished codegen for target count_say"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=9,10 "Finished codegen for target count_say"
 .PHONY : CMakeFiles/count_say.dir/codegen
 
 # clean rule for target.
@@ -365,7 +435,7 @@ CMakeFiles/count_say.dir/clean:
 CMakeFiles/count_subarr.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_subarr.dir/build.make CMakeFiles/count_subarr.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_subarr.dir/build.make CMakeFiles/count_subarr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target count_subarr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target count_subarr"
 .PHONY : CMakeFiles/count_subarr.dir/all
 
 # Build rule for subdir invocation for target.
@@ -382,7 +452,7 @@ count_subarr: CMakeFiles/count_subarr.dir/rule
 # codegen rule for target.
 CMakeFiles/count_subarr.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_subarr.dir/build.make CMakeFiles/count_subarr.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=9,10 "Finished codegen for target count_subarr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=11,12 "Finished codegen for target count_subarr"
 .PHONY : CMakeFiles/count_subarr.dir/codegen
 
 # clean rule for target.
@@ -397,7 +467,7 @@ CMakeFiles/count_subarr.dir/clean:
 CMakeFiles/count_subarr_with_cond.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_subarr_with_cond.dir/build.make CMakeFiles/count_subarr_with_cond.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_subarr_with_cond.dir/build.make CMakeFiles/count_subarr_with_cond.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target count_subarr_with_cond"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target count_subarr_with_cond"
 .PHONY : CMakeFiles/count_subarr_with_cond.dir/all
 
 # Build rule for subdir invocation for target.
@@ -414,7 +484,7 @@ count_subarr_with_cond: CMakeFiles/count_subarr_with_cond.dir/rule
 # codegen rule for target.
 CMakeFiles/count_subarr_with_cond.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_subarr_with_cond.dir/build.make CMakeFiles/count_subarr_with_cond.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=11,12 "Finished codegen for target count_subarr_with_cond"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=13,14 "Finished codegen for target count_subarr_with_cond"
 .PHONY : CMakeFiles/count_subarr_with_cond.dir/codegen
 
 # clean rule for target.
@@ -429,7 +499,7 @@ CMakeFiles/count_subarr_with_cond.dir/clean:
 CMakeFiles/house_robber.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/house_robber.dir/build.make CMakeFiles/house_robber.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/house_robber.dir/build.make CMakeFiles/house_robber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target house_robber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target house_robber"
 .PHONY : CMakeFiles/house_robber.dir/all
 
 # Build rule for subdir invocation for target.
@@ -446,7 +516,7 @@ house_robber: CMakeFiles/house_robber.dir/rule
 # codegen rule for target.
 CMakeFiles/house_robber.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/house_robber.dir/build.make CMakeFiles/house_robber.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=39,40 "Finished codegen for target house_robber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=41,42 "Finished codegen for target house_robber"
 .PHONY : CMakeFiles/house_robber.dir/codegen
 
 # clean rule for target.
@@ -461,7 +531,7 @@ CMakeFiles/house_robber.dir/clean:
 CMakeFiles/count_subarrays_with_score_less_than_k.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_subarrays_with_score_less_than_k.dir/build.make CMakeFiles/count_subarrays_with_score_less_than_k.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_subarrays_with_score_less_than_k.dir/build.make CMakeFiles/count_subarrays_with_score_less_than_k.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target count_subarrays_with_score_less_than_k"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target count_subarrays_with_score_less_than_k"
 .PHONY : CMakeFiles/count_subarrays_with_score_less_than_k.dir/all
 
 # Build rule for subdir invocation for target.
@@ -478,7 +548,7 @@ count_subarrays_with_score_less_than_k: CMakeFiles/count_subarrays_with_score_le
 # codegen rule for target.
 CMakeFiles/count_subarrays_with_score_less_than_k.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_subarrays_with_score_less_than_k.dir/build.make CMakeFiles/count_subarrays_with_score_less_than_k.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=15,16 "Finished codegen for target count_subarrays_with_score_less_than_k"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=17,18 "Finished codegen for target count_subarrays_with_score_less_than_k"
 .PHONY : CMakeFiles/count_subarrays_with_score_less_than_k.dir/codegen
 
 # clean rule for target.
@@ -493,7 +563,7 @@ CMakeFiles/count_subarrays_with_score_less_than_k.dir/clean:
 CMakeFiles/count_subarrays_where_max_k.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_subarrays_where_max_k.dir/build.make CMakeFiles/count_subarrays_where_max_k.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_subarrays_where_max_k.dir/build.make CMakeFiles/count_subarrays_where_max_k.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target count_subarrays_where_max_k"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target count_subarrays_where_max_k"
 .PHONY : CMakeFiles/count_subarrays_where_max_k.dir/all
 
 # Build rule for subdir invocation for target.
@@ -510,7 +580,7 @@ count_subarrays_where_max_k: CMakeFiles/count_subarrays_where_max_k.dir/rule
 # codegen rule for target.
 CMakeFiles/count_subarrays_where_max_k.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_subarrays_where_max_k.dir/build.make CMakeFiles/count_subarrays_where_max_k.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=13,14 "Finished codegen for target count_subarrays_where_max_k"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=15,16 "Finished codegen for target count_subarrays_where_max_k"
 .PHONY : CMakeFiles/count_subarrays_where_max_k.dir/codegen
 
 # clean rule for target.
@@ -525,7 +595,7 @@ CMakeFiles/count_subarrays_where_max_k.dir/clean:
 CMakeFiles/even_number_of_digits.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/even_number_of_digits.dir/build.make CMakeFiles/even_number_of_digits.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/even_number_of_digits.dir/build.make CMakeFiles/even_number_of_digits.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target even_number_of_digits"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target even_number_of_digits"
 .PHONY : CMakeFiles/even_number_of_digits.dir/all
 
 # Build rule for subdir invocation for target.
@@ -542,7 +612,7 @@ even_number_of_digits: CMakeFiles/even_number_of_digits.dir/rule
 # codegen rule for target.
 CMakeFiles/even_number_of_digits.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/even_number_of_digits.dir/build.make CMakeFiles/even_number_of_digits.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=27,28 "Finished codegen for target even_number_of_digits"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=29,30 "Finished codegen for target even_number_of_digits"
 .PHONY : CMakeFiles/even_number_of_digits.dir/codegen
 
 # clean rule for target.
@@ -557,7 +627,7 @@ CMakeFiles/even_number_of_digits.dir/clean:
 CMakeFiles/maximum_num_of_tasks.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/maximum_num_of_tasks.dir/build.make CMakeFiles/maximum_num_of_tasks.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/maximum_num_of_tasks.dir/build.make CMakeFiles/maximum_num_of_tasks.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target maximum_num_of_tasks"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target maximum_num_of_tasks"
 .PHONY : CMakeFiles/maximum_num_of_tasks.dir/all
 
 # Build rule for subdir invocation for target.
@@ -574,7 +644,7 @@ maximum_num_of_tasks: CMakeFiles/maximum_num_of_tasks.dir/rule
 # codegen rule for target.
 CMakeFiles/maximum_num_of_tasks.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/maximum_num_of_tasks.dir/build.make CMakeFiles/maximum_num_of_tasks.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=55,56 "Finished codegen for target maximum_num_of_tasks"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=59,60 "Finished codegen for target maximum_num_of_tasks"
 .PHONY : CMakeFiles/maximum_num_of_tasks.dir/codegen
 
 # clean rule for target.
@@ -589,7 +659,7 @@ CMakeFiles/maximum_num_of_tasks.dir/clean:
 CMakeFiles/push_dominoes.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_dominoes.dir/build.make CMakeFiles/push_dominoes.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_dominoes.dir/build.make CMakeFiles/push_dominoes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=69,70 "Built target push_dominoes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=73,74 "Built target push_dominoes"
 .PHONY : CMakeFiles/push_dominoes.dir/all
 
 # Build rule for subdir invocation for target.
@@ -606,7 +676,7 @@ push_dominoes: CMakeFiles/push_dominoes.dir/rule
 # codegen rule for target.
 CMakeFiles/push_dominoes.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_dominoes.dir/build.make CMakeFiles/push_dominoes.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=69,70 "Finished codegen for target push_dominoes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=73,74 "Finished codegen for target push_dominoes"
 .PHONY : CMakeFiles/push_dominoes.dir/codegen
 
 # clean rule for target.
@@ -621,7 +691,7 @@ CMakeFiles/push_dominoes.dir/clean:
 CMakeFiles/minimum_domino_rot.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minimum_domino_rot.dir/build.make CMakeFiles/minimum_domino_rot.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minimum_domino_rot.dir/build.make CMakeFiles/minimum_domino_rot.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target minimum_domino_rot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=67,68 "Built target minimum_domino_rot"
 .PHONY : CMakeFiles/minimum_domino_rot.dir/all
 
 # Build rule for subdir invocation for target.
@@ -638,7 +708,7 @@ minimum_domino_rot: CMakeFiles/minimum_domino_rot.dir/rule
 # codegen rule for target.
 CMakeFiles/minimum_domino_rot.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minimum_domino_rot.dir/build.make CMakeFiles/minimum_domino_rot.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=63,64 "Finished codegen for target minimum_domino_rot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=67,68 "Finished codegen for target minimum_domino_rot"
 .PHONY : CMakeFiles/minimum_domino_rot.dir/codegen
 
 # clean rule for target.
@@ -653,7 +723,7 @@ CMakeFiles/minimum_domino_rot.dir/clean:
 CMakeFiles/domino_and_tromino.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/domino_and_tromino.dir/build.make CMakeFiles/domino_and_tromino.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/domino_and_tromino.dir/build.make CMakeFiles/domino_and_tromino.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target domino_and_tromino"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target domino_and_tromino"
 .PHONY : CMakeFiles/domino_and_tromino.dir/all
 
 # Build rule for subdir invocation for target.
@@ -670,7 +740,7 @@ domino_and_tromino: CMakeFiles/domino_and_tromino.dir/rule
 # codegen rule for target.
 CMakeFiles/domino_and_tromino.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/domino_and_tromino.dir/build.make CMakeFiles/domino_and_tromino.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=25,26 "Finished codegen for target domino_and_tromino"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=27,28 "Finished codegen for target domino_and_tromino"
 .PHONY : CMakeFiles/domino_and_tromino.dir/codegen
 
 # clean rule for target.
@@ -685,7 +755,7 @@ CMakeFiles/domino_and_tromino.dir/clean:
 CMakeFiles/domino_and_equivalent.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/domino_and_equivalent.dir/build.make CMakeFiles/domino_and_equivalent.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/domino_and_equivalent.dir/build.make CMakeFiles/domino_and_equivalent.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target domino_and_equivalent"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target domino_and_equivalent"
 .PHONY : CMakeFiles/domino_and_equivalent.dir/all
 
 # Build rule for subdir invocation for target.
@@ -702,7 +772,7 @@ domino_and_equivalent: CMakeFiles/domino_and_equivalent.dir/rule
 # codegen rule for target.
 CMakeFiles/domino_and_equivalent.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/domino_and_equivalent.dir/build.make CMakeFiles/domino_and_equivalent.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=23,24 "Finished codegen for target domino_and_equivalent"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=25,26 "Finished codegen for target domino_and_equivalent"
 .PHONY : CMakeFiles/domino_and_equivalent.dir/codegen
 
 # clean rule for target.
@@ -749,7 +819,7 @@ CMakeFiles/build_arr_from_perm.dir/clean:
 CMakeFiles/snakes_and_ladders.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snakes_and_ladders.dir/build.make CMakeFiles/snakes_and_ladders.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snakes_and_ladders.dir/build.make CMakeFiles/snakes_and_ladders.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=73,74 "Built target snakes_and_ladders"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=77,78 "Built target snakes_and_ladders"
 .PHONY : CMakeFiles/snakes_and_ladders.dir/all
 
 # Build rule for subdir invocation for target.
@@ -766,7 +836,7 @@ snakes_and_ladders: CMakeFiles/snakes_and_ladders.dir/rule
 # codegen rule for target.
 CMakeFiles/snakes_and_ladders.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snakes_and_ladders.dir/build.make CMakeFiles/snakes_and_ladders.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=73,74 "Finished codegen for target snakes_and_ladders"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=77,78 "Finished codegen for target snakes_and_ladders"
 .PHONY : CMakeFiles/snakes_and_ladders.dir/codegen
 
 # clean rule for target.
@@ -781,7 +851,7 @@ CMakeFiles/snakes_and_ladders.dir/clean:
 CMakeFiles/find_min_time_to_reach_room.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_min_time_to_reach_room.dir/build.make CMakeFiles/find_min_time_to_reach_room.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_min_time_to_reach_room.dir/build.make CMakeFiles/find_min_time_to_reach_room.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target find_min_time_to_reach_room"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target find_min_time_to_reach_room"
 .PHONY : CMakeFiles/find_min_time_to_reach_room.dir/all
 
 # Build rule for subdir invocation for target.
@@ -798,7 +868,7 @@ find_min_time_to_reach_room: CMakeFiles/find_min_time_to_reach_room.dir/rule
 # codegen rule for target.
 CMakeFiles/find_min_time_to_reach_room.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_min_time_to_reach_room.dir/build.make CMakeFiles/find_min_time_to_reach_room.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=35,36 "Finished codegen for target find_min_time_to_reach_room"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=37,38 "Finished codegen for target find_min_time_to_reach_room"
 .PHONY : CMakeFiles/find_min_time_to_reach_room.dir/codegen
 
 # clean rule for target.
@@ -813,7 +883,7 @@ CMakeFiles/find_min_time_to_reach_room.dir/clean:
 CMakeFiles/find_min_time_to_each_room2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_min_time_to_each_room2.dir/build.make CMakeFiles/find_min_time_to_each_room2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_min_time_to_each_room2.dir/build.make CMakeFiles/find_min_time_to_each_room2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target find_min_time_to_each_room2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target find_min_time_to_each_room2"
 .PHONY : CMakeFiles/find_min_time_to_each_room2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -830,7 +900,7 @@ find_min_time_to_each_room2: CMakeFiles/find_min_time_to_each_room2.dir/rule
 # codegen rule for target.
 CMakeFiles/find_min_time_to_each_room2.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_min_time_to_each_room2.dir/build.make CMakeFiles/find_min_time_to_each_room2.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=33,34 "Finished codegen for target find_min_time_to_each_room2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=35,36 "Finished codegen for target find_min_time_to_each_room2"
 .PHONY : CMakeFiles/find_min_time_to_each_room2.dir/codegen
 
 # clean rule for target.
@@ -845,7 +915,7 @@ CMakeFiles/find_min_time_to_each_room2.dir/clean:
 CMakeFiles/house_robber_2_dp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/house_robber_2_dp.dir/build.make CMakeFiles/house_robber_2_dp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/house_robber_2_dp.dir/build.make CMakeFiles/house_robber_2_dp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target house_robber_2_dp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target house_robber_2_dp"
 .PHONY : CMakeFiles/house_robber_2_dp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -862,7 +932,7 @@ house_robber_2_dp: CMakeFiles/house_robber_2_dp.dir/rule
 # codegen rule for target.
 CMakeFiles/house_robber_2_dp.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/house_robber_2_dp.dir/build.make CMakeFiles/house_robber_2_dp.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=41,42 "Finished codegen for target house_robber_2_dp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=43,44 "Finished codegen for target house_robber_2_dp"
 .PHONY : CMakeFiles/house_robber_2_dp.dir/codegen
 
 # clean rule for target.
@@ -877,7 +947,7 @@ CMakeFiles/house_robber_2_dp.dir/clean:
 CMakeFiles/count_numb_balnc_perm.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_numb_balnc_perm.dir/build.make CMakeFiles/count_numb_balnc_perm.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_numb_balnc_perm.dir/build.make CMakeFiles/count_numb_balnc_perm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target count_numb_balnc_perm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target count_numb_balnc_perm"
 .PHONY : CMakeFiles/count_numb_balnc_perm.dir/all
 
 # Build rule for subdir invocation for target.
@@ -894,7 +964,7 @@ count_numb_balnc_perm: CMakeFiles/count_numb_balnc_perm.dir/rule
 # codegen rule for target.
 CMakeFiles/count_numb_balnc_perm.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_numb_balnc_perm.dir/build.make CMakeFiles/count_numb_balnc_perm.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=5,6 "Finished codegen for target count_numb_balnc_perm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=7,8 "Finished codegen for target count_numb_balnc_perm"
 .PHONY : CMakeFiles/count_numb_balnc_perm.dir/codegen
 
 # clean rule for target.
@@ -909,7 +979,7 @@ CMakeFiles/count_numb_balnc_perm.dir/clean:
 CMakeFiles/min_equal_sum_of_two_arr.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/min_equal_sum_of_two_arr.dir/build.make CMakeFiles/min_equal_sum_of_two_arr.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/min_equal_sum_of_two_arr.dir/build.make CMakeFiles/min_equal_sum_of_two_arr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target min_equal_sum_of_two_arr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=65,66 "Built target min_equal_sum_of_two_arr"
 .PHONY : CMakeFiles/min_equal_sum_of_two_arr.dir/all
 
 # Build rule for subdir invocation for target.
@@ -926,7 +996,7 @@ min_equal_sum_of_two_arr: CMakeFiles/min_equal_sum_of_two_arr.dir/rule
 # codegen rule for target.
 CMakeFiles/min_equal_sum_of_two_arr.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/min_equal_sum_of_two_arr.dir/build.make CMakeFiles/min_equal_sum_of_two_arr.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=61,62 "Finished codegen for target min_equal_sum_of_two_arr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=65,66 "Finished codegen for target min_equal_sum_of_two_arr"
 .PHONY : CMakeFiles/min_equal_sum_of_two_arr.dir/codegen
 
 # clean rule for target.
@@ -941,7 +1011,7 @@ CMakeFiles/min_equal_sum_of_two_arr.dir/clean:
 CMakeFiles/part_equal_subset.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/part_equal_subset.dir/build.make CMakeFiles/part_equal_subset.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/part_equal_subset.dir/build.make CMakeFiles/part_equal_subset.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=65,66 "Built target part_equal_subset"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=69,70 "Built target part_equal_subset"
 .PHONY : CMakeFiles/part_equal_subset.dir/all
 
 # Build rule for subdir invocation for target.
@@ -958,7 +1028,7 @@ part_equal_subset: CMakeFiles/part_equal_subset.dir/rule
 # codegen rule for target.
 CMakeFiles/part_equal_subset.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/part_equal_subset.dir/build.make CMakeFiles/part_equal_subset.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=65,66 "Finished codegen for target part_equal_subset"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=69,70 "Finished codegen for target part_equal_subset"
 .PHONY : CMakeFiles/part_equal_subset.dir/codegen
 
 # clean rule for target.
@@ -973,7 +1043,7 @@ CMakeFiles/part_equal_subset.dir/clean:
 CMakeFiles/three_consecutive_odds.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/three_consecutive_odds.dir/build.make CMakeFiles/three_consecutive_odds.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/three_consecutive_odds.dir/build.make CMakeFiles/three_consecutive_odds.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=75,76 "Built target three_consecutive_odds"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=79,80 "Built target three_consecutive_odds"
 .PHONY : CMakeFiles/three_consecutive_odds.dir/all
 
 # Build rule for subdir invocation for target.
@@ -990,7 +1060,7 @@ three_consecutive_odds: CMakeFiles/three_consecutive_odds.dir/rule
 # codegen rule for target.
 CMakeFiles/three_consecutive_odds.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/three_consecutive_odds.dir/build.make CMakeFiles/three_consecutive_odds.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=75,76 "Finished codegen for target three_consecutive_odds"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=79,80 "Finished codegen for target three_consecutive_odds"
 .PHONY : CMakeFiles/three_consecutive_odds.dir/codegen
 
 # clean rule for target.
@@ -1005,7 +1075,7 @@ CMakeFiles/three_consecutive_odds.dir/clean:
 CMakeFiles/two_sum.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/two_sum.dir/build.make CMakeFiles/two_sum.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/two_sum.dir/build.make CMakeFiles/two_sum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=81,82 "Built target two_sum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=85,86 "Built target two_sum"
 .PHONY : CMakeFiles/two_sum.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1022,7 +1092,7 @@ two_sum: CMakeFiles/two_sum.dir/rule
 # codegen rule for target.
 CMakeFiles/two_sum.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/two_sum.dir/build.make CMakeFiles/two_sum.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=81,82 "Finished codegen for target two_sum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=85,86 "Finished codegen for target two_sum"
 .PHONY : CMakeFiles/two_sum.dir/codegen
 
 # clean rule for target.
@@ -1037,7 +1107,7 @@ CMakeFiles/two_sum.dir/clean:
 CMakeFiles/design_search_data_struct.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/design_search_data_struct.dir/build.make CMakeFiles/design_search_data_struct.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/design_search_data_struct.dir/build.make CMakeFiles/design_search_data_struct.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target design_search_data_struct"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target design_search_data_struct"
 .PHONY : CMakeFiles/design_search_data_struct.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1054,7 +1124,7 @@ design_search_data_struct: CMakeFiles/design_search_data_struct.dir/rule
 # codegen rule for target.
 CMakeFiles/design_search_data_struct.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/design_search_data_struct.dir/build.make CMakeFiles/design_search_data_struct.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=17,18 "Finished codegen for target design_search_data_struct"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=19,20 "Finished codegen for target design_search_data_struct"
 .PHONY : CMakeFiles/design_search_data_struct.dir/codegen
 
 # clean rule for target.
@@ -1069,7 +1139,7 @@ CMakeFiles/design_search_data_struct.dir/clean:
 CMakeFiles/prefix_impl.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prefix_impl.dir/build.make CMakeFiles/prefix_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prefix_impl.dir/build.make CMakeFiles/prefix_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=67,68 "Built target prefix_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=71,72 "Built target prefix_impl"
 .PHONY : CMakeFiles/prefix_impl.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1086,7 +1156,7 @@ prefix_impl: CMakeFiles/prefix_impl.dir/rule
 # codegen rule for target.
 CMakeFiles/prefix_impl.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prefix_impl.dir/build.make CMakeFiles/prefix_impl.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=67,68 "Finished codegen for target prefix_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=71,72 "Finished codegen for target prefix_impl"
 .PHONY : CMakeFiles/prefix_impl.dir/codegen
 
 # clean rule for target.
@@ -1101,7 +1171,7 @@ CMakeFiles/prefix_impl.dir/clean:
 CMakeFiles/finding_3digit_even_num.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/finding_3digit_even_num.dir/build.make CMakeFiles/finding_3digit_even_num.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/finding_3digit_even_num.dir/build.make CMakeFiles/finding_3digit_even_num.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target finding_3digit_even_num"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target finding_3digit_even_num"
 .PHONY : CMakeFiles/finding_3digit_even_num.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1118,7 +1188,7 @@ finding_3digit_even_num: CMakeFiles/finding_3digit_even_num.dir/rule
 # codegen rule for target.
 CMakeFiles/finding_3digit_even_num.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/finding_3digit_even_num.dir/build.make CMakeFiles/finding_3digit_even_num.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=37,38 "Finished codegen for target finding_3digit_even_num"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=39,40 "Finished codegen for target finding_3digit_even_num"
 .PHONY : CMakeFiles/finding_3digit_even_num.dir/codegen
 
 # clean rule for target.
@@ -1133,7 +1203,7 @@ CMakeFiles/finding_3digit_even_num.dir/clean:
 CMakeFiles/total_char_after_trans1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/total_char_after_trans1.dir/build.make CMakeFiles/total_char_after_trans1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/total_char_after_trans1.dir/build.make CMakeFiles/total_char_after_trans1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=77,78 "Built target total_char_after_trans1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=81,82 "Built target total_char_after_trans1"
 .PHONY : CMakeFiles/total_char_after_trans1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1150,7 +1220,7 @@ total_char_after_trans1: CMakeFiles/total_char_after_trans1.dir/rule
 # codegen rule for target.
 CMakeFiles/total_char_after_trans1.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/total_char_after_trans1.dir/build.make CMakeFiles/total_char_after_trans1.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=77,78 "Finished codegen for target total_char_after_trans1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=81,82 "Finished codegen for target total_char_after_trans1"
 .PHONY : CMakeFiles/total_char_after_trans1.dir/codegen
 
 # clean rule for target.
@@ -1165,7 +1235,7 @@ CMakeFiles/total_char_after_trans1.dir/clean:
 CMakeFiles/total_char_after_trans2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/total_char_after_trans2.dir/build.make CMakeFiles/total_char_after_trans2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/total_char_after_trans2.dir/build.make CMakeFiles/total_char_after_trans2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=79,80 "Built target total_char_after_trans2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=83,84 "Built target total_char_after_trans2"
 .PHONY : CMakeFiles/total_char_after_trans2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1182,7 +1252,7 @@ total_char_after_trans2: CMakeFiles/total_char_after_trans2.dir/rule
 # codegen rule for target.
 CMakeFiles/total_char_after_trans2.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/total_char_after_trans2.dir/build.make CMakeFiles/total_char_after_trans2.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=79,80 "Finished codegen for target total_char_after_trans2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=83,84 "Finished codegen for target total_char_after_trans2"
 .PHONY : CMakeFiles/total_char_after_trans2.dir/codegen
 
 # clean rule for target.
@@ -1197,7 +1267,7 @@ CMakeFiles/total_char_after_trans2.dir/clean:
 CMakeFiles/longest_uneq_adjanc_group1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/longest_uneq_adjanc_group1.dir/build.make CMakeFiles/longest_uneq_adjanc_group1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/longest_uneq_adjanc_group1.dir/build.make CMakeFiles/longest_uneq_adjanc_group1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target longest_uneq_adjanc_group1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target longest_uneq_adjanc_group1"
 .PHONY : CMakeFiles/longest_uneq_adjanc_group1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1214,7 +1284,7 @@ longest_uneq_adjanc_group1: CMakeFiles/longest_uneq_adjanc_group1.dir/rule
 # codegen rule for target.
 CMakeFiles/longest_uneq_adjanc_group1.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/longest_uneq_adjanc_group1.dir/build.make CMakeFiles/longest_uneq_adjanc_group1.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=49,50 "Finished codegen for target longest_uneq_adjanc_group1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=51,52 "Finished codegen for target longest_uneq_adjanc_group1"
 .PHONY : CMakeFiles/longest_uneq_adjanc_group1.dir/codegen
 
 # clean rule for target.
@@ -1229,7 +1299,7 @@ CMakeFiles/longest_uneq_adjanc_group1.dir/clean:
 CMakeFiles/long_palindr_by_concat.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/long_palindr_by_concat.dir/build.make CMakeFiles/long_palindr_by_concat.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/long_palindr_by_concat.dir/build.make CMakeFiles/long_palindr_by_concat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target long_palindr_by_concat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target long_palindr_by_concat"
 .PHONY : CMakeFiles/long_palindr_by_concat.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1246,7 +1316,7 @@ long_palindr_by_concat: CMakeFiles/long_palindr_by_concat.dir/rule
 # codegen rule for target.
 CMakeFiles/long_palindr_by_concat.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/long_palindr_by_concat.dir/build.make CMakeFiles/long_palindr_by_concat.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=45,46 "Finished codegen for target long_palindr_by_concat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=47,48 "Finished codegen for target long_palindr_by_concat"
 .PHONY : CMakeFiles/long_palindr_by_concat.dir/codegen
 
 # clean rule for target.
@@ -1261,7 +1331,7 @@ CMakeFiles/long_palindr_by_concat.dir/clean:
 CMakeFiles/larg_color_val_in_graph.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/larg_color_val_in_graph.dir/build.make CMakeFiles/larg_color_val_in_graph.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/larg_color_val_in_graph.dir/build.make CMakeFiles/larg_color_val_in_graph.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target larg_color_val_in_graph"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target larg_color_val_in_graph"
 .PHONY : CMakeFiles/larg_color_val_in_graph.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1278,7 +1348,7 @@ larg_color_val_in_graph: CMakeFiles/larg_color_val_in_graph.dir/rule
 # codegen rule for target.
 CMakeFiles/larg_color_val_in_graph.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/larg_color_val_in_graph.dir/build.make CMakeFiles/larg_color_val_in_graph.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=43,44 "Finished codegen for target larg_color_val_in_graph"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=45,46 "Finished codegen for target larg_color_val_in_graph"
 .PHONY : CMakeFiles/larg_color_val_in_graph.dir/codegen
 
 # clean rule for target.
@@ -1293,7 +1363,7 @@ CMakeFiles/larg_color_val_in_graph.dir/clean:
 CMakeFiles/div_and_non_div_sums.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/div_and_non_div_sums.dir/build.make CMakeFiles/div_and_non_div_sums.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/div_and_non_div_sums.dir/build.make CMakeFiles/div_and_non_div_sums.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target div_and_non_div_sums"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target div_and_non_div_sums"
 .PHONY : CMakeFiles/div_and_non_div_sums.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1310,7 +1380,7 @@ div_and_non_div_sums: CMakeFiles/div_and_non_div_sums.dir/rule
 # codegen rule for target.
 CMakeFiles/div_and_non_div_sums.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/div_and_non_div_sums.dir/build.make CMakeFiles/div_and_non_div_sums.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=21,22 "Finished codegen for target div_and_non_div_sums"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=23,24 "Finished codegen for target div_and_non_div_sums"
 .PHONY : CMakeFiles/div_and_non_div_sums.dir/codegen
 
 # clean rule for target.
@@ -1325,7 +1395,7 @@ CMakeFiles/div_and_non_div_sums.dir/clean:
 CMakeFiles/find_k_closest_els.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_k_closest_els.dir/build.make CMakeFiles/find_k_closest_els.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_k_closest_els.dir/build.make CMakeFiles/find_k_closest_els.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target find_k_closest_els"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target find_k_closest_els"
 .PHONY : CMakeFiles/find_k_closest_els.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1342,7 +1412,7 @@ find_k_closest_els: CMakeFiles/find_k_closest_els.dir/rule
 # codegen rule for target.
 CMakeFiles/find_k_closest_els.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_k_closest_els.dir/build.make CMakeFiles/find_k_closest_els.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=31,32 "Finished codegen for target find_k_closest_els"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=33,34 "Finished codegen for target find_k_closest_els"
 .PHONY : CMakeFiles/find_k_closest_els.dir/codegen
 
 # clean rule for target.
@@ -1357,7 +1427,7 @@ CMakeFiles/find_k_closest_els.dir/clean:
 CMakeFiles/long_str_no_reap_char.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/long_str_no_reap_char.dir/build.make CMakeFiles/long_str_no_reap_char.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/long_str_no_reap_char.dir/build.make CMakeFiles/long_str_no_reap_char.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target long_str_no_reap_char"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target long_str_no_reap_char"
 .PHONY : CMakeFiles/long_str_no_reap_char.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1374,7 +1444,7 @@ long_str_no_reap_char: CMakeFiles/long_str_no_reap_char.dir/rule
 # codegen rule for target.
 CMakeFiles/long_str_no_reap_char.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/long_str_no_reap_char.dir/build.make CMakeFiles/long_str_no_reap_char.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=47,48 "Finished codegen for target long_str_no_reap_char"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=49,50 "Finished codegen for target long_str_no_reap_char"
 .PHONY : CMakeFiles/long_str_no_reap_char.dir/codegen
 
 # clean rule for target.
@@ -1389,7 +1459,7 @@ CMakeFiles/long_str_no_reap_char.dir/clean:
 CMakeFiles/max_num_nods_conn1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/max_num_nods_conn1.dir/build.make CMakeFiles/max_num_nods_conn1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/max_num_nods_conn1.dir/build.make CMakeFiles/max_num_nods_conn1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target max_num_nods_conn1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target max_num_nods_conn1"
 .PHONY : CMakeFiles/max_num_nods_conn1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1406,7 +1476,7 @@ max_num_nods_conn1: CMakeFiles/max_num_nods_conn1.dir/rule
 # codegen rule for target.
 CMakeFiles/max_num_nods_conn1.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/max_num_nods_conn1.dir/build.make CMakeFiles/max_num_nods_conn1.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=51,52 "Finished codegen for target max_num_nods_conn1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=55,56 "Finished codegen for target max_num_nods_conn1"
 .PHONY : CMakeFiles/max_num_nods_conn1.dir/codegen
 
 # clean rule for target.
@@ -1421,7 +1491,7 @@ CMakeFiles/max_num_nods_conn1.dir/clean:
 CMakeFiles/max_num_nods_conn2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/max_num_nods_conn2.dir/build.make CMakeFiles/max_num_nods_conn2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/max_num_nods_conn2.dir/build.make CMakeFiles/max_num_nods_conn2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target max_num_nods_conn2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target max_num_nods_conn2"
 .PHONY : CMakeFiles/max_num_nods_conn2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1438,7 +1508,7 @@ max_num_nods_conn2: CMakeFiles/max_num_nods_conn2.dir/rule
 # codegen rule for target.
 CMakeFiles/max_num_nods_conn2.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/max_num_nods_conn2.dir/build.make CMakeFiles/max_num_nods_conn2.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=53,54 "Finished codegen for target max_num_nods_conn2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=57,58 "Finished codegen for target max_num_nods_conn2"
 .PHONY : CMakeFiles/max_num_nods_conn2.dir/codegen
 
 # clean rule for target.
@@ -1453,7 +1523,7 @@ CMakeFiles/max_num_nods_conn2.dir/clean:
 CMakeFiles/find_clos_node_to_give.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_clos_node_to_give.dir/build.make CMakeFiles/find_clos_node_to_give.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_clos_node_to_give.dir/build.make CMakeFiles/find_clos_node_to_give.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target find_clos_node_to_give"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target find_clos_node_to_give"
 .PHONY : CMakeFiles/find_clos_node_to_give.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1470,7 +1540,7 @@ find_clos_node_to_give: CMakeFiles/find_clos_node_to_give.dir/rule
 # codegen rule for target.
 CMakeFiles/find_clos_node_to_give.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_clos_node_to_give.dir/build.make CMakeFiles/find_clos_node_to_give.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=29,30 "Finished codegen for target find_clos_node_to_give"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=31,32 "Finished codegen for target find_clos_node_to_give"
 .PHONY : CMakeFiles/find_clos_node_to_give.dir/codegen
 
 # clean rule for target.
@@ -1485,7 +1555,7 @@ CMakeFiles/find_clos_node_to_give.dir/clean:
 CMakeFiles/distr_cand_among_chil.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/distr_cand_among_chil.dir/build.make CMakeFiles/distr_cand_among_chil.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/distr_cand_among_chil.dir/build.make CMakeFiles/distr_cand_among_chil.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target distr_cand_among_chil"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target distr_cand_among_chil"
 .PHONY : CMakeFiles/distr_cand_among_chil.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1502,7 +1572,7 @@ distr_cand_among_chil: CMakeFiles/distr_cand_among_chil.dir/rule
 # codegen rule for target.
 CMakeFiles/distr_cand_among_chil.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/distr_cand_among_chil.dir/build.make CMakeFiles/distr_cand_among_chil.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=19,20 "Finished codegen for target distr_cand_among_chil"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles --progress-num=21,22 "Finished codegen for target distr_cand_among_chil"
 .PHONY : CMakeFiles/distr_cand_among_chil.dir/codegen
 
 # clean rule for target.

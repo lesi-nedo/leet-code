@@ -117,6 +117,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named max_candies_can_get
+
+# Build rule for target.
+max_candies_can_get: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 max_candies_can_get
+.PHONY : max_candies_can_get
+
+# fast build rule for target.
+max_candies_can_get/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/max_candies_can_get.dir/build.make CMakeFiles/max_candies_can_get.dir/build
+.PHONY : max_candies_can_get/fast
+
+#=============================================================================
+# Target rules for targets named candy_q
+
+# Build rule for target.
+candy_q: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 candy_q
+.PHONY : candy_q
+
+# fast build rule for target.
+candy_q/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/candy_q.dir/build.make CMakeFiles/candy_q.dir/build
+.PHONY : candy_q/fast
+
+#=============================================================================
 # Target rules for targets named merge_arr
 
 # Build rule for target.
@@ -720,6 +746,54 @@ daily_q/1295._Find_Numbers_with_Even_Number_of_Digits.s: daily_q/1295._Find_Numb
 daily_q/1295._Find_Numbers_with_Even_Number_of_Digits.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/even_number_of_digits.dir/build.make CMakeFiles/even_number_of_digits.dir/daily_q/1295._Find_Numbers_with_Even_Number_of_Digits.cpp.s
 .PHONY : daily_q/1295._Find_Numbers_with_Even_Number_of_Digits.cpp.s
+
+daily_q/1298._Maximum_Candies_You_Can_Get_from_Boxes.o: daily_q/1298._Maximum_Candies_You_Can_Get_from_Boxes.cpp.o
+.PHONY : daily_q/1298._Maximum_Candies_You_Can_Get_from_Boxes.o
+
+# target to build an object file
+daily_q/1298._Maximum_Candies_You_Can_Get_from_Boxes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/max_candies_can_get.dir/build.make CMakeFiles/max_candies_can_get.dir/daily_q/1298._Maximum_Candies_You_Can_Get_from_Boxes.cpp.o
+.PHONY : daily_q/1298._Maximum_Candies_You_Can_Get_from_Boxes.cpp.o
+
+daily_q/1298._Maximum_Candies_You_Can_Get_from_Boxes.i: daily_q/1298._Maximum_Candies_You_Can_Get_from_Boxes.cpp.i
+.PHONY : daily_q/1298._Maximum_Candies_You_Can_Get_from_Boxes.i
+
+# target to preprocess a source file
+daily_q/1298._Maximum_Candies_You_Can_Get_from_Boxes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/max_candies_can_get.dir/build.make CMakeFiles/max_candies_can_get.dir/daily_q/1298._Maximum_Candies_You_Can_Get_from_Boxes.cpp.i
+.PHONY : daily_q/1298._Maximum_Candies_You_Can_Get_from_Boxes.cpp.i
+
+daily_q/1298._Maximum_Candies_You_Can_Get_from_Boxes.s: daily_q/1298._Maximum_Candies_You_Can_Get_from_Boxes.cpp.s
+.PHONY : daily_q/1298._Maximum_Candies_You_Can_Get_from_Boxes.s
+
+# target to generate assembly for a file
+daily_q/1298._Maximum_Candies_You_Can_Get_from_Boxes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/max_candies_can_get.dir/build.make CMakeFiles/max_candies_can_get.dir/daily_q/1298._Maximum_Candies_You_Can_Get_from_Boxes.cpp.s
+.PHONY : daily_q/1298._Maximum_Candies_You_Can_Get_from_Boxes.cpp.s
+
+daily_q/135._Candy.o: daily_q/135._Candy.cpp.o
+.PHONY : daily_q/135._Candy.o
+
+# target to build an object file
+daily_q/135._Candy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/candy_q.dir/build.make CMakeFiles/candy_q.dir/daily_q/135._Candy.cpp.o
+.PHONY : daily_q/135._Candy.cpp.o
+
+daily_q/135._Candy.i: daily_q/135._Candy.cpp.i
+.PHONY : daily_q/135._Candy.i
+
+# target to preprocess a source file
+daily_q/135._Candy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/candy_q.dir/build.make CMakeFiles/candy_q.dir/daily_q/135._Candy.cpp.i
+.PHONY : daily_q/135._Candy.cpp.i
+
+daily_q/135._Candy.s: daily_q/135._Candy.cpp.s
+.PHONY : daily_q/135._Candy.s
+
+# target to generate assembly for a file
+daily_q/135._Candy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/candy_q.dir/build.make CMakeFiles/candy_q.dir/daily_q/135._Candy.cpp.s
+.PHONY : daily_q/135._Candy.cpp.s
 
 daily_q/1550._Three_Consecutive_Odds.o: daily_q/1550._Three_Consecutive_Odds.cpp.o
 .PHONY : daily_q/1550._Three_Consecutive_Odds.o
@@ -1643,6 +1717,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... build_arr_from_perm"
 	@echo "... candy"
+	@echo "... candy_q"
 	@echo "... count_numb_balnc_perm"
 	@echo "... count_say"
 	@echo "... count_subarr"
@@ -1666,6 +1741,7 @@ help:
 	@echo "... long_palindr_by_concat"
 	@echo "... long_str_no_reap_char"
 	@echo "... longest_uneq_adjanc_group1"
+	@echo "... max_candies_can_get"
 	@echo "... max_num_nods_conn1"
 	@echo "... max_num_nods_conn2"
 	@echo "... maximum_num_of_tasks"
@@ -1691,6 +1767,12 @@ help:
 	@echo "... daily_q/1295._Find_Numbers_with_Even_Number_of_Digits.o"
 	@echo "... daily_q/1295._Find_Numbers_with_Even_Number_of_Digits.i"
 	@echo "... daily_q/1295._Find_Numbers_with_Even_Number_of_Digits.s"
+	@echo "... daily_q/1298._Maximum_Candies_You_Can_Get_from_Boxes.o"
+	@echo "... daily_q/1298._Maximum_Candies_You_Can_Get_from_Boxes.i"
+	@echo "... daily_q/1298._Maximum_Candies_You_Can_Get_from_Boxes.s"
+	@echo "... daily_q/135._Candy.o"
+	@echo "... daily_q/135._Candy.i"
+	@echo "... daily_q/135._Candy.s"
 	@echo "... daily_q/1550._Three_Consecutive_Odds.o"
 	@echo "... daily_q/1550._Three_Consecutive_Odds.i"
 	@echo "... daily_q/1550._Three_Consecutive_Odds.s"

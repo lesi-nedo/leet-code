@@ -1,3 +1,5 @@
+/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/max_candies_can_get.dir
+/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/candy_q.dir
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/merge_arr.dir
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/rem_el.dir
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/candy.dir
