@@ -9,6 +9,7 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 
 message(STATUS "CMAKE_BINARY_DIR is: ${CMAKE_BINARY_DIR}")
 
+add_executable(find_the_lex_larg_str1 daily_q/3403.\ Find\ the\ Lexicographically\ Largest\ String\ From\ the\ Box\ I.cpp)
 add_executable(max_candies_can_get daily_q/1298.\ Maximum\ Candies\ You\ Can\ Get\ from\ Boxes.cpp)
 add_executable(candy_q daily_q/135.\ Candy.cpp)
 add_executable(merge_arr top_interview_150/merge_arr.cpp)

@@ -1,0 +1,447 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "leet_code_sol_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "build_arr_from_perm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-build_arr_from_perm-Debug-4cdd2c4411462972431a.json",
+					"name" : "build_arr_from_perm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "candy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-candy-Debug-497c5969e7c6a02f7049.json",
+					"name" : "candy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "candy_q::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-candy_q-Debug-6a76979f849e6604884a.json",
+					"name" : "candy_q",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "count_numb_balnc_perm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-count_numb_balnc_perm-Debug-9053166446b3228c1682.json",
+					"name" : "count_numb_balnc_perm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "count_say::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-count_say-Debug-73b380e2415d827a78d6.json",
+					"name" : "count_say",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "count_subarr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-count_subarr-Debug-06ad9e6592e40ee3ec96.json",
+					"name" : "count_subarr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "count_subarr_with_cond::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-count_subarr_with_cond-Debug-6649721b47124738c364.json",
+					"name" : "count_subarr_with_cond",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "count_subarrays_where_max_k::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-count_subarrays_where_max_k-Debug-5b71988450d26c1a0288.json",
+					"name" : "count_subarrays_where_max_k",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "count_subarrays_with_score_less_than_k::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-count_subarrays_with_score_less_than_k-Debug-76ececd888c958a75174.json",
+					"name" : "count_subarrays_with_score_less_than_k",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "design_search_data_struct::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-design_search_data_struct-Debug-12c614e2b75bdde38525.json",
+					"name" : "design_search_data_struct",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "distr_cand_among_chil::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-distr_cand_among_chil-Debug-15435b8b216e8bd8d3ff.json",
+					"name" : "distr_cand_among_chil",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "div_and_non_div_sums::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-div_and_non_div_sums-Debug-19e5389a8a5c3549dafd.json",
+					"name" : "div_and_non_div_sums",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "domino_and_equivalent::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-domino_and_equivalent-Debug-3036be3d6f997b669d05.json",
+					"name" : "domino_and_equivalent",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "domino_and_tromino::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-domino_and_tromino-Debug-8536d991336f1fc172f8.json",
+					"name" : "domino_and_tromino",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "even_number_of_digits::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-even_number_of_digits-Debug-4a598dfcfc3c37c9c6d9.json",
+					"name" : "even_number_of_digits",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "find_clos_node_to_give::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-find_clos_node_to_give-Debug-c8f71467932c16fcb428.json",
+					"name" : "find_clos_node_to_give",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "find_k_closest_els::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-find_k_closest_els-Debug-9e541795e685617e178d.json",
+					"name" : "find_k_closest_els",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "find_min_time_to_each_room2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-find_min_time_to_each_room2-Debug-fab745725ebdd6e12e37.json",
+					"name" : "find_min_time_to_each_room2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "find_min_time_to_reach_room::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-find_min_time_to_reach_room-Debug-8c0546ccd8358c9fcfa5.json",
+					"name" : "find_min_time_to_reach_room",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "find_the_lex_larg_str1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-find_the_lex_larg_str1-Debug-bf2472d5334501f2d026.json",
+					"name" : "find_the_lex_larg_str1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "finding_3digit_even_num::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-finding_3digit_even_num-Debug-de6e9e6bdd77cde29eb0.json",
+					"name" : "finding_3digit_even_num",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "house_robber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-house_robber-Debug-63cf677f5995559e4864.json",
+					"name" : "house_robber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "house_robber_2_dp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-house_robber_2_dp-Debug-f72e16830335a178a633.json",
+					"name" : "house_robber_2_dp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "larg_color_val_in_graph::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-larg_color_val_in_graph-Debug-54e76f21815e8423bdf8.json",
+					"name" : "larg_color_val_in_graph",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "long_palindr_by_concat::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-long_palindr_by_concat-Debug-825a6bde02f2569e8503.json",
+					"name" : "long_palindr_by_concat",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "long_str_no_reap_char::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-long_str_no_reap_char-Debug-41c8b7f25e631224ac6d.json",
+					"name" : "long_str_no_reap_char",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "longest_uneq_adjanc_group1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-longest_uneq_adjanc_group1-Debug-be1264c71aaf765216d8.json",
+					"name" : "longest_uneq_adjanc_group1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "max_candies_can_get::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-max_candies_can_get-Debug-f08025cd3e2b70e14f3f.json",
+					"name" : "max_candies_can_get",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "max_num_nods_conn1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-max_num_nods_conn1-Debug-e2186e127f5ee56fb662.json",
+					"name" : "max_num_nods_conn1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "max_num_nods_conn2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-max_num_nods_conn2-Debug-8a9082c1af0828f9b4eb.json",
+					"name" : "max_num_nods_conn2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "maximum_num_of_tasks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-maximum_num_of_tasks-Debug-4ed22f77dbd3766d2f4a.json",
+					"name" : "maximum_num_of_tasks",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "med_two_sort_arr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-med_two_sort_arr-Debug-b77c193d0a99a22f0c9b.json",
+					"name" : "med_two_sort_arr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "merge_arr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-merge_arr-Debug-b0f7b3ff194a1512a26d.json",
+					"name" : "merge_arr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "min_equal_sum_of_two_arr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-min_equal_sum_of_two_arr-Debug-52c7d4857b75dad11e6b.json",
+					"name" : "min_equal_sum_of_two_arr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "minimum_domino_rot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-minimum_domino_rot-Debug-7a483873362dab2bc9ab.json",
+					"name" : "minimum_domino_rot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "part_equal_subset::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-part_equal_subset-Debug-5fc16345168152e1c29b.json",
+					"name" : "part_equal_subset",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prefix_impl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prefix_impl-Debug-e4a62f3643630037e0d2.json",
+					"name" : "prefix_impl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "push_dominoes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-push_dominoes-Debug-18e5b482ccd8b73569f2.json",
+					"name" : "push_dominoes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rem_el::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rem_el-Debug-5a7a2e8ccbe1d0a14c13.json",
+					"name" : "rem_el",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "snakes_and_ladders::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-snakes_and_ladders-Debug-49342731fd1eecc5dc7e.json",
+					"name" : "snakes_and_ladders",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "three_consecutive_odds::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-three_consecutive_odds-Debug-524bfb14a0a3c84a5c19.json",
+					"name" : "three_consecutive_odds",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "total_char_after_trans1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-total_char_after_trans1-Debug-73c173d7bdc59eab7bb8.json",
+					"name" : "total_char_after_trans1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "total_char_after_trans2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-total_char_after_trans2-Debug-fe4a752722db86372866.json",
+					"name" : "total_char_after_trans2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "two_sum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-two_sum-Debug-83a764aa4645129fa915.json",
+					"name" : "two_sum",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lesi-nedo/Desktop/leet-code/cmake-build-debug",
+		"source" : "/home/lesi-nedo/Desktop/leet-code"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
