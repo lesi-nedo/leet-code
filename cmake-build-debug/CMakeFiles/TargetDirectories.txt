@@ -1,3 +1,7 @@
+/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/lex_nums.dir
+/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/lex_min_str_after_rem_stars.dir
+/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/using_rob_to_pri_lex_sm_str.dir
+/home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/lexic_small_equi_str.dir
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/find_the_lex_larg_str1.dir
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/max_candies_can_get.dir
 /home/lesi-nedo/Desktop/leet-code/cmake-build-debug/CMakeFiles/candy_q.dir

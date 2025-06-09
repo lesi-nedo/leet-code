@@ -54,6 +54,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/lex_nums.dir/DependInfo.cmake"
+  "CMakeFiles/lex_min_str_after_rem_stars.dir/DependInfo.cmake"
+  "CMakeFiles/using_rob_to_pri_lex_sm_str.dir/DependInfo.cmake"
+  "CMakeFiles/lexic_small_equi_str.dir/DependInfo.cmake"
   "CMakeFiles/find_the_lex_larg_str1.dir/DependInfo.cmake"
   "CMakeFiles/max_candies_can_get.dir/DependInfo.cmake"
   "CMakeFiles/candy_q.dir/DependInfo.cmake"

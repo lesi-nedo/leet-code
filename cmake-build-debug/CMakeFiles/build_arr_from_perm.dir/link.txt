@@ -1,1 +1,1 @@
-/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/build_arr_from_perm.dir/link.d CMakeFiles/build_arr_from_perm.dir/daily_q/1920._Build_Array_from_Permutation.cpp.o -o bin/build_arr_from_perm
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/build_arr_from_perm.dir/link.d CMakeFiles/build_arr_from_perm.dir/daily_q/1920._Build_Array_from_Permutation.cpp.o "CMakeFiles/build_arr_from_perm.dir/daily_q/440._K-th_Smallest_in_Lexicographical_Order.cpp.o" -o bin/build_arr_from_perm

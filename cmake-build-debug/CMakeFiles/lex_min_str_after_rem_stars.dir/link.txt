@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/lex_min_str_after_rem_stars.dir/link.d CMakeFiles/lex_min_str_after_rem_stars.dir/daily_q/3170._Lexicographically_Minimum_String_After_Removing_Stars.cpp.o -o bin/lex_min_str_after_rem_stars

@@ -9,6 +9,11 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 
 message(STATUS "CMAKE_BINARY_DIR is: ${CMAKE_BINARY_DIR}")
 
+add_executable(small_in_lex_ord 440.\ K-th\ Smallest\ in\ Lexicographical\ Order.cpp)
+add_executable(lex_nums daily_q/386.\ Lexicographical\ Numbers.cpp)
+add_executable(lex_min_str_after_rem_stars daily_q/3170.\ Lexicographically\ Minimum\ String\ After\ Removing\ Stars.cpp)
+add_executable(using_rob_to_pri_lex_sm_str daily_q/2434.\ Using\ a\ Robot\ to\ Print\ the\ Lexicographically\ Smallest\ String.cpp)
+add_executable(lexic_small_equi_str daily_q/1061.\ Lexicographically\ Smallest\ Equivalent\ String.cpp)
 add_executable(find_the_lex_larg_str1 daily_q/3403.\ Find\ the\ Lexicographically\ Largest\ String\ From\ the\ Box\ I.cpp)
 add_executable(max_candies_can_get daily_q/1298.\ Maximum\ Candies\ You\ Can\ Get\ from\ Boxes.cpp)
 add_executable(candy_q daily_q/135.\ Candy.cpp)

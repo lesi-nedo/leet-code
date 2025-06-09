@@ -117,6 +117,58 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named lex_nums
+
+# Build rule for target.
+lex_nums: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lex_nums
+.PHONY : lex_nums
+
+# fast build rule for target.
+lex_nums/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lex_nums.dir/build.make CMakeFiles/lex_nums.dir/build
+.PHONY : lex_nums/fast
+
+#=============================================================================
+# Target rules for targets named lex_min_str_after_rem_stars
+
+# Build rule for target.
+lex_min_str_after_rem_stars: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lex_min_str_after_rem_stars
+.PHONY : lex_min_str_after_rem_stars
+
+# fast build rule for target.
+lex_min_str_after_rem_stars/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lex_min_str_after_rem_stars.dir/build.make CMakeFiles/lex_min_str_after_rem_stars.dir/build
+.PHONY : lex_min_str_after_rem_stars/fast
+
+#=============================================================================
+# Target rules for targets named using_rob_to_pri_lex_sm_str
+
+# Build rule for target.
+using_rob_to_pri_lex_sm_str: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 using_rob_to_pri_lex_sm_str
+.PHONY : using_rob_to_pri_lex_sm_str
+
+# fast build rule for target.
+using_rob_to_pri_lex_sm_str/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/using_rob_to_pri_lex_sm_str.dir/build.make CMakeFiles/using_rob_to_pri_lex_sm_str.dir/build
+.PHONY : using_rob_to_pri_lex_sm_str/fast
+
+#=============================================================================
+# Target rules for targets named lexic_small_equi_str
+
+# Build rule for target.
+lexic_small_equi_str: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lexic_small_equi_str
+.PHONY : lexic_small_equi_str
+
+# fast build rule for target.
+lexic_small_equi_str/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lexic_small_equi_str.dir/build.make CMakeFiles/lexic_small_equi_str.dir/build
+.PHONY : lexic_small_equi_str/fast
+
+#=============================================================================
 # Target rules for targets named find_the_lex_larg_str1
 
 # Build rule for target.
@@ -712,6 +764,30 @@ daily_q/1007._Minimum_Domino_Rotations_For_Equal_Row.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minimum_domino_rot.dir/build.make CMakeFiles/minimum_domino_rot.dir/daily_q/1007._Minimum_Domino_Rotations_For_Equal_Row.cpp.s
 .PHONY : daily_q/1007._Minimum_Domino_Rotations_For_Equal_Row.cpp.s
 
+daily_q/1061._Lexicographically_Smallest_Equivalent_String.o: daily_q/1061._Lexicographically_Smallest_Equivalent_String.cpp.o
+.PHONY : daily_q/1061._Lexicographically_Smallest_Equivalent_String.o
+
+# target to build an object file
+daily_q/1061._Lexicographically_Smallest_Equivalent_String.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lexic_small_equi_str.dir/build.make CMakeFiles/lexic_small_equi_str.dir/daily_q/1061._Lexicographically_Smallest_Equivalent_String.cpp.o
+.PHONY : daily_q/1061._Lexicographically_Smallest_Equivalent_String.cpp.o
+
+daily_q/1061._Lexicographically_Smallest_Equivalent_String.i: daily_q/1061._Lexicographically_Smallest_Equivalent_String.cpp.i
+.PHONY : daily_q/1061._Lexicographically_Smallest_Equivalent_String.i
+
+# target to preprocess a source file
+daily_q/1061._Lexicographically_Smallest_Equivalent_String.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lexic_small_equi_str.dir/build.make CMakeFiles/lexic_small_equi_str.dir/daily_q/1061._Lexicographically_Smallest_Equivalent_String.cpp.i
+.PHONY : daily_q/1061._Lexicographically_Smallest_Equivalent_String.cpp.i
+
+daily_q/1061._Lexicographically_Smallest_Equivalent_String.s: daily_q/1061._Lexicographically_Smallest_Equivalent_String.cpp.s
+.PHONY : daily_q/1061._Lexicographically_Smallest_Equivalent_String.s
+
+# target to generate assembly for a file
+daily_q/1061._Lexicographically_Smallest_Equivalent_String.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lexic_small_equi_str.dir/build.make CMakeFiles/lexic_small_equi_str.dir/daily_q/1061._Lexicographically_Smallest_Equivalent_String.cpp.s
+.PHONY : daily_q/1061._Lexicographically_Smallest_Equivalent_String.cpp.s
+
 daily_q/1128._Number_of_Equivalent_Domino_Pairs.o: daily_q/1128._Number_of_Equivalent_Domino_Pairs.cpp.o
 .PHONY : daily_q/1128._Number_of_Equivalent_Domino_Pairs.o
 
@@ -1000,6 +1076,30 @@ daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_clos_node_to_give.dir/build.make CMakeFiles/find_clos_node_to_give.dir/daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.cpp.s
 .PHONY : daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.cpp.s
 
+daily_q/2434._Using_a_Robot_to_Print_the_Lexicographically_Smallest_String.o: daily_q/2434._Using_a_Robot_to_Print_the_Lexicographically_Smallest_String.cpp.o
+.PHONY : daily_q/2434._Using_a_Robot_to_Print_the_Lexicographically_Smallest_String.o
+
+# target to build an object file
+daily_q/2434._Using_a_Robot_to_Print_the_Lexicographically_Smallest_String.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/using_rob_to_pri_lex_sm_str.dir/build.make CMakeFiles/using_rob_to_pri_lex_sm_str.dir/daily_q/2434._Using_a_Robot_to_Print_the_Lexicographically_Smallest_String.cpp.o
+.PHONY : daily_q/2434._Using_a_Robot_to_Print_the_Lexicographically_Smallest_String.cpp.o
+
+daily_q/2434._Using_a_Robot_to_Print_the_Lexicographically_Smallest_String.i: daily_q/2434._Using_a_Robot_to_Print_the_Lexicographically_Smallest_String.cpp.i
+.PHONY : daily_q/2434._Using_a_Robot_to_Print_the_Lexicographically_Smallest_String.i
+
+# target to preprocess a source file
+daily_q/2434._Using_a_Robot_to_Print_the_Lexicographically_Smallest_String.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/using_rob_to_pri_lex_sm_str.dir/build.make CMakeFiles/using_rob_to_pri_lex_sm_str.dir/daily_q/2434._Using_a_Robot_to_Print_the_Lexicographically_Smallest_String.cpp.i
+.PHONY : daily_q/2434._Using_a_Robot_to_Print_the_Lexicographically_Smallest_String.cpp.i
+
+daily_q/2434._Using_a_Robot_to_Print_the_Lexicographically_Smallest_String.s: daily_q/2434._Using_a_Robot_to_Print_the_Lexicographically_Smallest_String.cpp.s
+.PHONY : daily_q/2434._Using_a_Robot_to_Print_the_Lexicographically_Smallest_String.s
+
+# target to generate assembly for a file
+daily_q/2434._Using_a_Robot_to_Print_the_Lexicographically_Smallest_String.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/using_rob_to_pri_lex_sm_str.dir/build.make CMakeFiles/using_rob_to_pri_lex_sm_str.dir/daily_q/2434._Using_a_Robot_to_Print_the_Lexicographically_Smallest_String.cpp.s
+.PHONY : daily_q/2434._Using_a_Robot_to_Print_the_Lexicographically_Smallest_String.cpp.s
+
 daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.o: daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.cpp.o
 .PHONY : daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.o
 
@@ -1119,6 +1219,30 @@ daily_q/2962._Count_Subarrays_Where_Max_Element_Appears_at_Least_K_Times.s: dail
 daily_q/2962._Count_Subarrays_Where_Max_Element_Appears_at_Least_K_Times.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_subarrays_where_max_k.dir/build.make CMakeFiles/count_subarrays_where_max_k.dir/daily_q/2962._Count_Subarrays_Where_Max_Element_Appears_at_Least_K_Times.cpp.s
 .PHONY : daily_q/2962._Count_Subarrays_Where_Max_Element_Appears_at_Least_K_Times.cpp.s
+
+daily_q/3170._Lexicographically_Minimum_String_After_Removing_Stars.o: daily_q/3170._Lexicographically_Minimum_String_After_Removing_Stars.cpp.o
+.PHONY : daily_q/3170._Lexicographically_Minimum_String_After_Removing_Stars.o
+
+# target to build an object file
+daily_q/3170._Lexicographically_Minimum_String_After_Removing_Stars.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lex_min_str_after_rem_stars.dir/build.make CMakeFiles/lex_min_str_after_rem_stars.dir/daily_q/3170._Lexicographically_Minimum_String_After_Removing_Stars.cpp.o
+.PHONY : daily_q/3170._Lexicographically_Minimum_String_After_Removing_Stars.cpp.o
+
+daily_q/3170._Lexicographically_Minimum_String_After_Removing_Stars.i: daily_q/3170._Lexicographically_Minimum_String_After_Removing_Stars.cpp.i
+.PHONY : daily_q/3170._Lexicographically_Minimum_String_After_Removing_Stars.i
+
+# target to preprocess a source file
+daily_q/3170._Lexicographically_Minimum_String_After_Removing_Stars.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lex_min_str_after_rem_stars.dir/build.make CMakeFiles/lex_min_str_after_rem_stars.dir/daily_q/3170._Lexicographically_Minimum_String_After_Removing_Stars.cpp.i
+.PHONY : daily_q/3170._Lexicographically_Minimum_String_After_Removing_Stars.cpp.i
+
+daily_q/3170._Lexicographically_Minimum_String_After_Removing_Stars.s: daily_q/3170._Lexicographically_Minimum_String_After_Removing_Stars.cpp.s
+.PHONY : daily_q/3170._Lexicographically_Minimum_String_After_Removing_Stars.s
+
+# target to generate assembly for a file
+daily_q/3170._Lexicographically_Minimum_String_After_Removing_Stars.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lex_min_str_after_rem_stars.dir/build.make CMakeFiles/lex_min_str_after_rem_stars.dir/daily_q/3170._Lexicographically_Minimum_String_After_Removing_Stars.cpp.s
+.PHONY : daily_q/3170._Lexicographically_Minimum_String_After_Removing_Stars.cpp.s
 
 daily_q/3335._Total_Characters_in_String_After_Transformations_I.o: daily_q/3335._Total_Characters_in_String_After_Transformations_I.cpp.o
 .PHONY : daily_q/3335._Total_Characters_in_String_After_Transformations_I.o
@@ -1311,6 +1435,54 @@ daily_q/3403._Find_the_Lexicographically_Largest_String_From_the_Box_I.s: daily_
 daily_q/3403._Find_the_Lexicographically_Largest_String_From_the_Box_I.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/find_the_lex_larg_str1.dir/build.make CMakeFiles/find_the_lex_larg_str1.dir/daily_q/3403._Find_the_Lexicographically_Largest_String_From_the_Box_I.cpp.s
 .PHONY : daily_q/3403._Find_the_Lexicographically_Largest_String_From_the_Box_I.cpp.s
+
+daily_q/386._Lexicographical_Numbers.o: daily_q/386._Lexicographical_Numbers.cpp.o
+.PHONY : daily_q/386._Lexicographical_Numbers.o
+
+# target to build an object file
+daily_q/386._Lexicographical_Numbers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lex_nums.dir/build.make CMakeFiles/lex_nums.dir/daily_q/386._Lexicographical_Numbers.cpp.o
+.PHONY : daily_q/386._Lexicographical_Numbers.cpp.o
+
+daily_q/386._Lexicographical_Numbers.i: daily_q/386._Lexicographical_Numbers.cpp.i
+.PHONY : daily_q/386._Lexicographical_Numbers.i
+
+# target to preprocess a source file
+daily_q/386._Lexicographical_Numbers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lex_nums.dir/build.make CMakeFiles/lex_nums.dir/daily_q/386._Lexicographical_Numbers.cpp.i
+.PHONY : daily_q/386._Lexicographical_Numbers.cpp.i
+
+daily_q/386._Lexicographical_Numbers.s: daily_q/386._Lexicographical_Numbers.cpp.s
+.PHONY : daily_q/386._Lexicographical_Numbers.s
+
+# target to generate assembly for a file
+daily_q/386._Lexicographical_Numbers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lex_nums.dir/build.make CMakeFiles/lex_nums.dir/daily_q/386._Lexicographical_Numbers.cpp.s
+.PHONY : daily_q/386._Lexicographical_Numbers.cpp.s
+
+daily_q/440._K-th_Smallest_in_Lexicographical_Order.o: daily_q/440._K-th_Smallest_in_Lexicographical_Order.cpp.o
+.PHONY : daily_q/440._K-th_Smallest_in_Lexicographical_Order.o
+
+# target to build an object file
+daily_q/440._K-th_Smallest_in_Lexicographical_Order.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_arr_from_perm.dir/build.make CMakeFiles/build_arr_from_perm.dir/daily_q/440._K-th_Smallest_in_Lexicographical_Order.cpp.o
+.PHONY : daily_q/440._K-th_Smallest_in_Lexicographical_Order.cpp.o
+
+daily_q/440._K-th_Smallest_in_Lexicographical_Order.i: daily_q/440._K-th_Smallest_in_Lexicographical_Order.cpp.i
+.PHONY : daily_q/440._K-th_Smallest_in_Lexicographical_Order.i
+
+# target to preprocess a source file
+daily_q/440._K-th_Smallest_in_Lexicographical_Order.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_arr_from_perm.dir/build.make CMakeFiles/build_arr_from_perm.dir/daily_q/440._K-th_Smallest_in_Lexicographical_Order.cpp.i
+.PHONY : daily_q/440._K-th_Smallest_in_Lexicographical_Order.cpp.i
+
+daily_q/440._K-th_Smallest_in_Lexicographical_Order.s: daily_q/440._K-th_Smallest_in_Lexicographical_Order.cpp.s
+.PHONY : daily_q/440._K-th_Smallest_in_Lexicographical_Order.s
+
+# target to generate assembly for a file
+daily_q/440._K-th_Smallest_in_Lexicographical_Order.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_arr_from_perm.dir/build.make CMakeFiles/build_arr_from_perm.dir/daily_q/440._K-th_Smallest_in_Lexicographical_Order.cpp.s
+.PHONY : daily_q/440._K-th_Smallest_in_Lexicographical_Order.cpp.s
 
 daily_q/790._Domino_and_Tromino_Tiling.o: daily_q/790._Domino_and_Tromino_Tiling.cpp.o
 .PHONY : daily_q/790._Domino_and_Tromino_Tiling.o
@@ -1776,6 +1948,9 @@ help:
 	@echo "... house_robber"
 	@echo "... house_robber_2_dp"
 	@echo "... larg_color_val_in_graph"
+	@echo "... lex_min_str_after_rem_stars"
+	@echo "... lex_nums"
+	@echo "... lexic_small_equi_str"
 	@echo "... long_palindr_by_concat"
 	@echo "... long_str_no_reap_char"
 	@echo "... longest_uneq_adjanc_group1"
@@ -1796,9 +1971,13 @@ help:
 	@echo "... total_char_after_trans1"
 	@echo "... total_char_after_trans2"
 	@echo "... two_sum"
+	@echo "... using_rob_to_pri_lex_sm_str"
 	@echo "... daily_q/1007._Minimum_Domino_Rotations_For_Equal_Row.o"
 	@echo "... daily_q/1007._Minimum_Domino_Rotations_For_Equal_Row.i"
 	@echo "... daily_q/1007._Minimum_Domino_Rotations_For_Equal_Row.s"
+	@echo "... daily_q/1061._Lexicographically_Smallest_Equivalent_String.o"
+	@echo "... daily_q/1061._Lexicographically_Smallest_Equivalent_String.i"
+	@echo "... daily_q/1061._Lexicographically_Smallest_Equivalent_String.s"
 	@echo "... daily_q/1128._Number_of_Equivalent_Domino_Pairs.o"
 	@echo "... daily_q/1128._Number_of_Equivalent_Domino_Pairs.i"
 	@echo "... daily_q/1128._Number_of_Equivalent_Domino_Pairs.s"
@@ -1835,6 +2014,9 @@ help:
 	@echo "... daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.o"
 	@echo "... daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.i"
 	@echo "... daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.s"
+	@echo "... daily_q/2434._Using_a_Robot_to_Print_the_Lexicographically_Smallest_String.o"
+	@echo "... daily_q/2434._Using_a_Robot_to_Print_the_Lexicographically_Smallest_String.i"
+	@echo "... daily_q/2434._Using_a_Robot_to_Print_the_Lexicographically_Smallest_String.s"
 	@echo "... daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.o"
 	@echo "... daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.i"
 	@echo "... daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.s"
@@ -1850,6 +2032,9 @@ help:
 	@echo "... daily_q/2962._Count_Subarrays_Where_Max_Element_Appears_at_Least_K_Times.o"
 	@echo "... daily_q/2962._Count_Subarrays_Where_Max_Element_Appears_at_Least_K_Times.i"
 	@echo "... daily_q/2962._Count_Subarrays_Where_Max_Element_Appears_at_Least_K_Times.s"
+	@echo "... daily_q/3170._Lexicographically_Minimum_String_After_Removing_Stars.o"
+	@echo "... daily_q/3170._Lexicographically_Minimum_String_After_Removing_Stars.i"
+	@echo "... daily_q/3170._Lexicographically_Minimum_String_After_Removing_Stars.s"
 	@echo "... daily_q/3335._Total_Characters_in_String_After_Transformations_I.o"
 	@echo "... daily_q/3335._Total_Characters_in_String_After_Transformations_I.i"
 	@echo "... daily_q/3335._Total_Characters_in_String_After_Transformations_I.s"
@@ -1874,6 +2059,12 @@ help:
 	@echo "... daily_q/3403._Find_the_Lexicographically_Largest_String_From_the_Box_I.o"
 	@echo "... daily_q/3403._Find_the_Lexicographically_Largest_String_From_the_Box_I.i"
 	@echo "... daily_q/3403._Find_the_Lexicographically_Largest_String_From_the_Box_I.s"
+	@echo "... daily_q/386._Lexicographical_Numbers.o"
+	@echo "... daily_q/386._Lexicographical_Numbers.i"
+	@echo "... daily_q/386._Lexicographical_Numbers.s"
+	@echo "... daily_q/440._K-th_Smallest_in_Lexicographical_Order.o"
+	@echo "... daily_q/440._K-th_Smallest_in_Lexicographical_Order.i"
+	@echo "... daily_q/440._K-th_Smallest_in_Lexicographical_Order.s"
 	@echo "... daily_q/790._Domino_and_Tromino_Tiling.o"
 	@echo "... daily_q/790._Domino_and_Tromino_Tiling.i"
 	@echo "... daily_q/790._Domino_and_Tromino_Tiling.s"
