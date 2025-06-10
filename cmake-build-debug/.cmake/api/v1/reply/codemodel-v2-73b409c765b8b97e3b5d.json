@@ -44,7 +44,17 @@
 						26,
 						27,
 						28,
-						29
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39
 					]
 				}
 			],
@@ -88,7 +98,17 @@
 						26,
 						27,
 						28,
-						29
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39
 					]
 				}
 			],
@@ -194,6 +214,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "find_words_with_char::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-find_words_with_char-Debug-55e2d7b9a733e7413509.json",
+					"name" : "find_words_with_char",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "finding_3digit_even_num::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-finding_3digit_even_num-Debug-fbb5f05aef339f4d02d3.json",
 					"name" : "finding_3digit_even_num",
@@ -215,6 +242,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "long_uneq_adjanc_group2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-long_uneq_adjanc_group2-Debug-8ba47ccb30910dc7a036.json",
+					"name" : "long_uneq_adjanc_group2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "longest_uneq_adjanc_group1::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-longest_uneq_adjanc_group1-Debug-7a65bda4325d60b417ff.json",
 					"name" : "longest_uneq_adjanc_group1",
@@ -222,9 +256,23 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "max_nodes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-max_nodes-Debug-194dcca85f7b16af0c6c.json",
+					"name" : "max_nodes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "maximum_num_of_tasks::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-maximum_num_of_tasks-Debug-8d2cf5529764ef8044a3.json",
 					"name" : "maximum_num_of_tasks",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "median_sort_arr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-median_sort_arr-Debug-a30d2e2f0217a3028db4.json",
+					"name" : "median_sort_arr",
 					"projectIndex" : 0
 				},
 				{
@@ -246,6 +294,13 @@
 					"id" : "minimum_domino_rot::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-minimum_domino_rot-Debug-c99f6e3ebe37f3edf897.json",
 					"name" : "minimum_domino_rot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "painting_grid_diff_colo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-painting_grid_diff_colo-Debug-ef211eeebad7be81f4d9.json",
+					"name" : "painting_grid_diff_colo",
 					"projectIndex" : 0
 				},
 				{
@@ -278,6 +333,27 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "set_matrix_zeroes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-set_matrix_zeroes-Debug-ad1120f50f889ae65018.json",
+					"name" : "set_matrix_zeroes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smallest_pos_int::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smallest_pos_int-Debug-af2e2fbac801b87c45d4.json",
+					"name" : "smallest_pos_int",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sort_colors::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sort_colors-Debug-b9f27d68686eeaf7b60b.json",
+					"name" : "sort_colors",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "three_consecutive_odds::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-three_consecutive_odds-Debug-22b5955c63c678fffaa9.json",
 					"name" : "three_consecutive_odds",
@@ -302,6 +378,20 @@
 					"id" : "two_sum::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-two_sum-Debug-f5bb238fa8ef2dec3e49.json",
 					"name" : "two_sum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zero_array_trans3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zero_array_trans3-Debug-0e9ca60085d4b8ae506a.json",
+					"name" : "zero_array_trans3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zero_array_transf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zero_array_transf-Debug-aa3186f404b7f0cfb9cb.json",
+					"name" : "zero_array_transf",
 					"projectIndex" : 0
 				}
 			]

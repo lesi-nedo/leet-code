@@ -1031,6 +1031,336 @@ build bin/longest_uneq_adjanc_group1: CXX_EXECUTABLE_LINKER__longest_uneq_adjanc
   TARGET_FILE = bin/longest_uneq_adjanc_group1
   TARGET_PDB = longest_uneq_adjanc_group1.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target long_uneq_adjanc_group2
+
+
+#############################################
+# Order-only phony target for long_uneq_adjanc_group2
+
+build cmake_object_order_depends_target_long_uneq_adjanc_group2: phony || .
+
+build CMakeFiles/long_uneq_adjanc_group2.dir/daily_q/2901._Longest_Unequal_Adjacent_Groups_Subsequence_II.cpp.o: CXX_COMPILER__long_uneq_adjanc_group2_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/2901.$ Longest$ Unequal$ Adjacent$ Groups$ Subsequence$ II.cpp || cmake_object_order_depends_target_long_uneq_adjanc_group2
+  DEP_FILE = CMakeFiles/long_uneq_adjanc_group2.dir/daily_q/2901._Longest_Unequal_Adjacent_Groups_Subsequence_II.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/long_uneq_adjanc_group2.dir
+  OBJECT_FILE_DIR = CMakeFiles/long_uneq_adjanc_group2.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target long_uneq_adjanc_group2
+
+
+#############################################
+# Link the executable bin/long_uneq_adjanc_group2
+
+build bin/long_uneq_adjanc_group2: CXX_EXECUTABLE_LINKER__long_uneq_adjanc_group2_Debug CMakeFiles/long_uneq_adjanc_group2.dir/daily_q/2901._Longest_Unequal_Adjacent_Groups_Subsequence_II.cpp.o
+  DEP_FILE = CMakeFiles/long_uneq_adjanc_group2.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/long_uneq_adjanc_group2.dir/link.d
+  OBJECT_DIR = CMakeFiles/long_uneq_adjanc_group2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/long_uneq_adjanc_group2
+  TARGET_PDB = long_uneq_adjanc_group2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sort_colors
+
+
+#############################################
+# Order-only phony target for sort_colors
+
+build cmake_object_order_depends_target_sort_colors: phony || .
+
+build CMakeFiles/sort_colors.dir/daily_q/75._Sort_Colors.cpp.o: CXX_COMPILER__sort_colors_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/75.$ Sort$ Colors.cpp || cmake_object_order_depends_target_sort_colors
+  DEP_FILE = CMakeFiles/sort_colors.dir/daily_q/75._Sort_Colors.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/sort_colors.dir
+  OBJECT_FILE_DIR = CMakeFiles/sort_colors.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sort_colors
+
+
+#############################################
+# Link the executable bin/sort_colors
+
+build bin/sort_colors: CXX_EXECUTABLE_LINKER__sort_colors_Debug CMakeFiles/sort_colors.dir/daily_q/75._Sort_Colors.cpp.o
+  DEP_FILE = CMakeFiles/sort_colors.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/sort_colors.dir/link.d
+  OBJECT_DIR = CMakeFiles/sort_colors.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/sort_colors
+  TARGET_PDB = sort_colors.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target painting_grid_diff_colo
+
+
+#############################################
+# Order-only phony target for painting_grid_diff_colo
+
+build cmake_object_order_depends_target_painting_grid_diff_colo: phony || .
+
+build CMakeFiles/painting_grid_diff_colo.dir/daily_q/1931._Painting_a_Grid_With_Three_Different_Colors.cpp.o: CXX_COMPILER__painting_grid_diff_colo_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/1931.$ Painting$ a$ Grid$ With$ Three$ Different$ Colors.cpp || cmake_object_order_depends_target_painting_grid_diff_colo
+  DEP_FILE = CMakeFiles/painting_grid_diff_colo.dir/daily_q/1931._Painting_a_Grid_With_Three_Different_Colors.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/painting_grid_diff_colo.dir
+  OBJECT_FILE_DIR = CMakeFiles/painting_grid_diff_colo.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target painting_grid_diff_colo
+
+
+#############################################
+# Link the executable bin/painting_grid_diff_colo
+
+build bin/painting_grid_diff_colo: CXX_EXECUTABLE_LINKER__painting_grid_diff_colo_Debug CMakeFiles/painting_grid_diff_colo.dir/daily_q/1931._Painting_a_Grid_With_Three_Different_Colors.cpp.o
+  DEP_FILE = CMakeFiles/painting_grid_diff_colo.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/painting_grid_diff_colo.dir/link.d
+  OBJECT_DIR = CMakeFiles/painting_grid_diff_colo.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/painting_grid_diff_colo
+  TARGET_PDB = painting_grid_diff_colo.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target zero_array_transf
+
+
+#############################################
+# Order-only phony target for zero_array_transf
+
+build cmake_object_order_depends_target_zero_array_transf: phony || .
+
+build CMakeFiles/zero_array_transf.dir/daily_q/3355._Zero_Array_Transformation_I.cpp.o: CXX_COMPILER__zero_array_transf_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/3355.$ Zero$ Array$ Transformation$ I.cpp || cmake_object_order_depends_target_zero_array_transf
+  DEP_FILE = CMakeFiles/zero_array_transf.dir/daily_q/3355._Zero_Array_Transformation_I.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/zero_array_transf.dir
+  OBJECT_FILE_DIR = CMakeFiles/zero_array_transf.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zero_array_transf
+
+
+#############################################
+# Link the executable bin/zero_array_transf
+
+build bin/zero_array_transf: CXX_EXECUTABLE_LINKER__zero_array_transf_Debug CMakeFiles/zero_array_transf.dir/daily_q/3355._Zero_Array_Transformation_I.cpp.o
+  DEP_FILE = CMakeFiles/zero_array_transf.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/zero_array_transf.dir/link.d
+  OBJECT_DIR = CMakeFiles/zero_array_transf.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/zero_array_transf
+  TARGET_PDB = zero_array_transf.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target smallest_pos_int
+
+
+#############################################
+# Order-only phony target for smallest_pos_int
+
+build cmake_object_order_depends_target_smallest_pos_int: phony || .
+
+build CMakeFiles/smallest_pos_int.dir/top_interview_150/41._First_Missing_Positive.cpp.o: CXX_COMPILER__smallest_pos_int_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/top_interview_150/41.$ First$ Missing$ Positive.cpp || cmake_object_order_depends_target_smallest_pos_int
+  DEP_FILE = CMakeFiles/smallest_pos_int.dir/top_interview_150/41._First_Missing_Positive.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/smallest_pos_int.dir
+  OBJECT_FILE_DIR = CMakeFiles/smallest_pos_int.dir/top_interview_150
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target smallest_pos_int
+
+
+#############################################
+# Link the executable bin/smallest_pos_int
+
+build bin/smallest_pos_int: CXX_EXECUTABLE_LINKER__smallest_pos_int_Debug CMakeFiles/smallest_pos_int.dir/top_interview_150/41._First_Missing_Positive.cpp.o
+  DEP_FILE = CMakeFiles/smallest_pos_int.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/smallest_pos_int.dir/link.d
+  OBJECT_DIR = CMakeFiles/smallest_pos_int.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/smallest_pos_int
+  TARGET_PDB = smallest_pos_int.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target median_sort_arr
+
+
+#############################################
+# Order-only phony target for median_sort_arr
+
+build cmake_object_order_depends_target_median_sort_arr: phony || .
+
+build CMakeFiles/median_sort_arr.dir/top_interview_150/4._Median_of_Two_Sorted_Arrays.cpp.o: CXX_COMPILER__median_sort_arr_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/top_interview_150/4.$ Median$ of$ Two$ Sorted$ Arrays.cpp || cmake_object_order_depends_target_median_sort_arr
+  DEP_FILE = CMakeFiles/median_sort_arr.dir/top_interview_150/4._Median_of_Two_Sorted_Arrays.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/median_sort_arr.dir
+  OBJECT_FILE_DIR = CMakeFiles/median_sort_arr.dir/top_interview_150
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target median_sort_arr
+
+
+#############################################
+# Link the executable bin/median_sort_arr
+
+build bin/median_sort_arr: CXX_EXECUTABLE_LINKER__median_sort_arr_Debug CMakeFiles/median_sort_arr.dir/top_interview_150/4._Median_of_Two_Sorted_Arrays.cpp.o
+  DEP_FILE = CMakeFiles/median_sort_arr.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/median_sort_arr.dir/link.d
+  OBJECT_DIR = CMakeFiles/median_sort_arr.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/median_sort_arr
+  TARGET_PDB = median_sort_arr.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target set_matrix_zeroes
+
+
+#############################################
+# Order-only phony target for set_matrix_zeroes
+
+build cmake_object_order_depends_target_set_matrix_zeroes: phony || .
+
+build CMakeFiles/set_matrix_zeroes.dir/daily_q/73._Set_Matrix_Zeroes.cpp.o: CXX_COMPILER__set_matrix_zeroes_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/73.$ Set$ Matrix$ Zeroes.cpp || cmake_object_order_depends_target_set_matrix_zeroes
+  DEP_FILE = CMakeFiles/set_matrix_zeroes.dir/daily_q/73._Set_Matrix_Zeroes.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/set_matrix_zeroes.dir
+  OBJECT_FILE_DIR = CMakeFiles/set_matrix_zeroes.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target set_matrix_zeroes
+
+
+#############################################
+# Link the executable bin/set_matrix_zeroes
+
+build bin/set_matrix_zeroes: CXX_EXECUTABLE_LINKER__set_matrix_zeroes_Debug CMakeFiles/set_matrix_zeroes.dir/daily_q/73._Set_Matrix_Zeroes.cpp.o
+  DEP_FILE = CMakeFiles/set_matrix_zeroes.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/set_matrix_zeroes.dir/link.d
+  OBJECT_DIR = CMakeFiles/set_matrix_zeroes.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/set_matrix_zeroes
+  TARGET_PDB = set_matrix_zeroes.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target zero_array_trans3
+
+
+#############################################
+# Order-only phony target for zero_array_trans3
+
+build cmake_object_order_depends_target_zero_array_trans3: phony || .
+
+build CMakeFiles/zero_array_trans3.dir/daily_q/3362._Zero_Array_Transformation_III.cpp.o: CXX_COMPILER__zero_array_trans3_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/3362.$ Zero$ Array$ Transformation$ III.cpp || cmake_object_order_depends_target_zero_array_trans3
+  DEP_FILE = CMakeFiles/zero_array_trans3.dir/daily_q/3362._Zero_Array_Transformation_III.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/zero_array_trans3.dir
+  OBJECT_FILE_DIR = CMakeFiles/zero_array_trans3.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zero_array_trans3
+
+
+#############################################
+# Link the executable bin/zero_array_trans3
+
+build bin/zero_array_trans3: CXX_EXECUTABLE_LINKER__zero_array_trans3_Debug CMakeFiles/zero_array_trans3.dir/daily_q/3362._Zero_Array_Transformation_III.cpp.o
+  DEP_FILE = CMakeFiles/zero_array_trans3.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/zero_array_trans3.dir/link.d
+  OBJECT_DIR = CMakeFiles/zero_array_trans3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/zero_array_trans3
+  TARGET_PDB = zero_array_trans3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target max_nodes
+
+
+#############################################
+# Order-only phony target for max_nodes
+
+build cmake_object_order_depends_target_max_nodes: phony || .
+
+build CMakeFiles/max_nodes.dir/daily_q/3068._Find_the_Maximum_Sum_of_Node_Values.cpp.o: CXX_COMPILER__max_nodes_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/3068.$ Find$ the$ Maximum$ Sum$ of$ Node$ Values.cpp || cmake_object_order_depends_target_max_nodes
+  DEP_FILE = CMakeFiles/max_nodes.dir/daily_q/3068._Find_the_Maximum_Sum_of_Node_Values.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/max_nodes.dir
+  OBJECT_FILE_DIR = CMakeFiles/max_nodes.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target max_nodes
+
+
+#############################################
+# Link the executable bin/max_nodes
+
+build bin/max_nodes: CXX_EXECUTABLE_LINKER__max_nodes_Debug CMakeFiles/max_nodes.dir/daily_q/3068._Find_the_Maximum_Sum_of_Node_Values.cpp.o
+  DEP_FILE = CMakeFiles/max_nodes.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/max_nodes.dir/link.d
+  OBJECT_DIR = CMakeFiles/max_nodes.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/max_nodes
+  TARGET_PDB = max_nodes.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target find_words_with_char
+
+
+#############################################
+# Order-only phony target for find_words_with_char
+
+build cmake_object_order_depends_target_find_words_with_char: phony || .
+
+build CMakeFiles/find_words_with_char.dir/daily_q/2942._Find_Words_Containing_Character.cpp.o: CXX_COMPILER__find_words_with_char_unscanned_Debug /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/daily_q/2942.$ Find$ Words$ Containing$ Character.cpp || cmake_object_order_depends_target_find_words_with_char
+  DEP_FILE = CMakeFiles/find_words_with_char.dir/daily_q/2942._Find_Words_Containing_Character.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/find_words_with_char.dir
+  OBJECT_FILE_DIR = CMakeFiles/find_words_with_char.dir/daily_q
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target find_words_with_char
+
+
+#############################################
+# Link the executable bin/find_words_with_char
+
+build bin/find_words_with_char: CXX_EXECUTABLE_LINKER__find_words_with_char_Debug CMakeFiles/find_words_with_char.dir/daily_q/2942._Find_Words_Containing_Character.cpp.o
+  DEP_FILE = CMakeFiles/find_words_with_char.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/find_words_with_char.dir/link.d
+  OBJECT_DIR = CMakeFiles/find_words_with_char.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/find_words_with_char
+  TARGET_PDB = find_words_with_char.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1085,21 +1415,31 @@ build find_min_time_to_each_room2: phony bin/find_min_time_to_each_room2
 
 build find_min_time_to_reach_room: phony bin/find_min_time_to_reach_room
 
+build find_words_with_char: phony bin/find_words_with_char
+
 build finding_3digit_even_num: phony bin/finding_3digit_even_num
 
 build house_robber: phony bin/house_robber
 
 build house_robber_2_dp: phony bin/house_robber_2_dp
 
+build long_uneq_adjanc_group2: phony bin/long_uneq_adjanc_group2
+
 build longest_uneq_adjanc_group1: phony bin/longest_uneq_adjanc_group1
 
+build max_nodes: phony bin/max_nodes
+
 build maximum_num_of_tasks: phony bin/maximum_num_of_tasks
+
+build median_sort_arr: phony bin/median_sort_arr
 
 build merge_arr: phony bin/merge_arr
 
 build min_equal_sum_of_two_arr: phony bin/min_equal_sum_of_two_arr
 
 build minimum_domino_rot: phony bin/minimum_domino_rot
+
+build painting_grid_diff_colo: phony bin/painting_grid_diff_colo
 
 build part_equal_subset: phony bin/part_equal_subset
 
@@ -1109,6 +1449,12 @@ build push_dominoes: phony bin/push_dominoes
 
 build rem_el: phony bin/rem_el
 
+build set_matrix_zeroes: phony bin/set_matrix_zeroes
+
+build smallest_pos_int: phony bin/smallest_pos_int
+
+build sort_colors: phony bin/sort_colors
+
 build three_consecutive_odds: phony bin/three_consecutive_odds
 
 build total_char_after_trans1: phony bin/total_char_after_trans1
@@ -1116,6 +1462,10 @@ build total_char_after_trans1: phony bin/total_char_after_trans1
 build total_char_after_trans2: phony bin/total_char_after_trans2
 
 build two_sum: phony bin/two_sum
+
+build zero_array_trans3: phony bin/zero_array_trans3
+
+build zero_array_transf: phony bin/zero_array_transf
 
 # =============================================================================
 # Folder targets.
@@ -1125,7 +1475,7 @@ build two_sum: phony bin/two_sum
 #############################################
 # Folder: /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug
 
-build all: phony bin/merge_arr bin/rem_el bin/candy bin/count_say bin/count_subarr bin/count_subarr_with_cond bin/house_robber bin/count_subarrays_with_score_less_than_k bin/count_subarrays_where_max_k bin/even_number_of_digits bin/maximum_num_of_tasks bin/push_dominoes bin/minimum_domino_rot bin/domino_and_tromino bin/domino_and_equivalent bin/build_arr_from_perm bin/find_min_time_to_reach_room bin/find_min_time_to_each_room2 bin/house_robber_2_dp bin/count_numb_balnc_perm bin/min_equal_sum_of_two_arr bin/part_equal_subset bin/three_consecutive_odds bin/two_sum bin/design_search_data_struct bin/prefix_impl bin/finding_3digit_even_num bin/total_char_after_trans1 bin/total_char_after_trans2 bin/longest_uneq_adjanc_group1
+build all: phony bin/merge_arr bin/rem_el bin/candy bin/count_say bin/count_subarr bin/count_subarr_with_cond bin/house_robber bin/count_subarrays_with_score_less_than_k bin/count_subarrays_where_max_k bin/even_number_of_digits bin/maximum_num_of_tasks bin/push_dominoes bin/minimum_domino_rot bin/domino_and_tromino bin/domino_and_equivalent bin/build_arr_from_perm bin/find_min_time_to_reach_room bin/find_min_time_to_each_room2 bin/house_robber_2_dp bin/count_numb_balnc_perm bin/min_equal_sum_of_two_arr bin/part_equal_subset bin/three_consecutive_odds bin/two_sum bin/design_search_data_struct bin/prefix_impl bin/finding_3digit_even_num bin/total_char_after_trans1 bin/total_char_after_trans2 bin/longest_uneq_adjanc_group1 bin/long_uneq_adjanc_group2 bin/sort_colors bin/painting_grid_diff_colo bin/zero_array_transf bin/smallest_pos_int bin/median_sort_arr bin/set_matrix_zeroes bin/zero_array_trans3 bin/max_nodes bin/find_words_with_char
 
 # =============================================================================
 # Built-in targets

@@ -28,5 +28,15 @@
 /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/total_char_after_trans1.dir
 /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/total_char_after_trans2.dir
 /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/longest_uneq_adjanc_group1.dir
+/home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/long_uneq_adjanc_group2.dir
+/home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/sort_colors.dir
+/home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/painting_grid_diff_colo.dir
+/home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/zero_array_transf.dir
+/home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/smallest_pos_int.dir
+/home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/median_sort_arr.dir
+/home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/set_matrix_zeroes.dir
+/home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/zero_array_trans3.dir
+/home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/max_nodes.dir
+/home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/find_words_with_char.dir
 /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
