@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/div_and_non_div_sums.dir/link.d "CMakeFiles/div_and_non_div_sums.dir/daily_q/2894._Divisible_and_Non-divisible_Sums_Difference.cpp.o" -o bin/div_and_non_div_sums

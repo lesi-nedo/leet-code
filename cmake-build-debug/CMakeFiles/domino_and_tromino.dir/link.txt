@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/domino_and_tromino.dir/link.d CMakeFiles/domino_and_tromino.dir/daily_q/790._Domino_and_Tromino_Tiling.cpp.o -o bin/domino_and_tromino

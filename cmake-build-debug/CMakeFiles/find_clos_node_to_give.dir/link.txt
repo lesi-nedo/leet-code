@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/find_clos_node_to_give.dir/link.d CMakeFiles/find_clos_node_to_give.dir/daily_q/2359._Find_Closest_Node_to_Given_Two_Nodes.cpp.o -o bin/find_clos_node_to_give

@@ -1,4 +1,5 @@
-/home/lesi-nedo/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/lesi-nedo/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/ninja/linux/x64/ninja -G Ninja -S /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp -B /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug
+/home/lesi-nedo/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /home/lesi-nedo/Desktop/leet-code -B /home/lesi-nedo/Desktop/leet-code/cmake-build-debug
+-- CMAKE_BINARY_DIR is: /home/lesi-nedo/Desktop/leet-code/cmake-build-debug
 -- Configuring done (0.0s)
--- Generating done (0.0s)
--- Build files have been written to: /home/lesi-nedo/Desktop/repositories/leet_code_sol_cpp/cmake-build-debug
+-- Generating done (0.1s)
+-- Build files have been written to: /home/lesi-nedo/Desktop/leet-code/cmake-build-debug

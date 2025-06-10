@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/count_numb_balnc_perm.dir/link.d CMakeFiles/count_numb_balnc_perm.dir/daily_q/3343._Count_Number_of_Balanced_Permutations.cpp.o -o bin/count_numb_balnc_perm

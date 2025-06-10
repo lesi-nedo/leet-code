@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/count_say.dir/link.d CMakeFiles/count_say.dir/top_interview_150/count_say.cpp.o -o bin/count_say

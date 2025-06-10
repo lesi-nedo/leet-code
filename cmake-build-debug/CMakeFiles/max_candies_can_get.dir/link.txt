@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/max_candies_can_get.dir/link.d CMakeFiles/max_candies_can_get.dir/daily_q/1298._Maximum_Candies_You_Can_Get_from_Boxes.cpp.o -o bin/max_candies_can_get

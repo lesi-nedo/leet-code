@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/domino_and_equivalent.dir/link.d CMakeFiles/domino_and_equivalent.dir/daily_q/1128._Number_of_Equivalent_Domino_Pairs.cpp.o -o bin/domino_and_equivalent

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/med_two_sort_arr.dir/link.d CMakeFiles/med_two_sort_arr.dir/top_interview_150/4._Median_of_Two_Sorted_Arrays.cpp.o -o bin/med_two_sort_arr

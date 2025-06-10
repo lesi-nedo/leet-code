@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/candy.dir/link.d CMakeFiles/candy.dir/top_interview_150/candy.cpp.o -o bin/candy

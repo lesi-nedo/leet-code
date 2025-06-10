@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/longest_uneq_adjanc_group1.dir/link.d CMakeFiles/longest_uneq_adjanc_group1.dir/daily_q/2900._Longest_Unequal_Adjacent_Groups_Subsequence_I.cpp.o -o bin/longest_uneq_adjanc_group1
