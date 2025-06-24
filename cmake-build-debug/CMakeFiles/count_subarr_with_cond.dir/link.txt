@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/count_subarr_with_cond.dir/link.d CMakeFiles/count_subarr_with_cond.dir/daily_q/count_subarr_with_cond.cpp.o -o bin/count_subarr_with_cond

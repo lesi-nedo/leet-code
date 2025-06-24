@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/max_num_nods_conn2.dir/link.d CMakeFiles/max_num_nods_conn2.dir/daily_q/3373._Maximize_the_Number_of_Target_Nodes_After_Connecting_Trees_II.cpp.o -o bin/max_num_nods_conn2

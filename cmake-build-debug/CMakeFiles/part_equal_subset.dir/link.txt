@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/part_equal_subset.dir/link.d CMakeFiles/part_equal_subset.dir/top_interview_150/416._Partition_Equal_Subset_Sum.cpp.o -o bin/part_equal_subset

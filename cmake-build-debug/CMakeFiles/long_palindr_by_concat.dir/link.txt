@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/long_palindr_by_concat.dir/link.d CMakeFiles/long_palindr_by_concat.dir/daily_q/2131._Longest_Palindrome_by_Concatenating_Two_Letter_Words.cpp.o -o bin/long_palindr_by_concat

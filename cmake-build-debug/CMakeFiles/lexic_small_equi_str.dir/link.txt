@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/lexic_small_equi_str.dir/link.d CMakeFiles/lexic_small_equi_str.dir/daily_q/1061._Lexicographically_Smallest_Equivalent_String.cpp.o -o bin/lexic_small_equi_str

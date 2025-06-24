@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/minimum_domino_rot.dir/link.d CMakeFiles/minimum_domino_rot.dir/daily_q/1007._Minimum_Domino_Rotations_For_Equal_Row.cpp.o -o bin/minimum_domino_rot

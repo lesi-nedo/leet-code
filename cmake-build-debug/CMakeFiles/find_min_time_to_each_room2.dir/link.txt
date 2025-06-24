@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/find_min_time_to_each_room2.dir/link.d CMakeFiles/find_min_time_to_each_room2.dir/daily_q/3342._Find_Minimum_Time_to_Reach_Last_Room_II.cpp.o -o bin/find_min_time_to_each_room2

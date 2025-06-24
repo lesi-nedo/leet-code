@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/lex_nums.dir/link.d CMakeFiles/lex_nums.dir/daily_q/386._Lexicographical_Numbers.cpp.o -o bin/lex_nums

@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/using_rob_to_pri_lex_sm_str.dir/link.d CMakeFiles/using_rob_to_pri_lex_sm_str.dir/daily_q/2434._Using_a_Robot_to_Print_the_Lexicographically_Smallest_String.cpp.o -o bin/using_rob_to_pri_lex_sm_str

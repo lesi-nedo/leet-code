@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/snakes_and_ladders.dir/link.d CMakeFiles/snakes_and_ladders.dir/daily_q/909._Snakes_and_Ladders.cpp.o -o bin/snakes_and_ladders

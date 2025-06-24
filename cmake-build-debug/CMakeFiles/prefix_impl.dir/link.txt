@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/prefix_impl.dir/link.d "CMakeFiles/prefix_impl.dir/top_interview_150/208._Implement_Trie_(Prefix_Tree).cpp.o" -o bin/prefix_impl

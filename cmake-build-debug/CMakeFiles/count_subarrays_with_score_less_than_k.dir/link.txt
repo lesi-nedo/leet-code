@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/count_subarrays_with_score_less_than_k.dir/link.d CMakeFiles/count_subarrays_with_score_less_than_k.dir/daily_q/2302._Count_Subarrays_With_Score_Less_Than_K.cpp.o -o bin/count_subarrays_with_score_less_than_k

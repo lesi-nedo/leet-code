@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/push_dominoes.dir/link.d CMakeFiles/push_dominoes.dir/daily_q/838._Push_Dominoes.cpp.o -o bin/push_dominoes

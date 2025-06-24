@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/even_number_of_digits.dir/link.d CMakeFiles/even_number_of_digits.dir/daily_q/1295._Find_Numbers_with_Even_Number_of_Digits.cpp.o -o bin/even_number_of_digits
